@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "<Required: legal name>",
+  "alternateName": "<Optional: alternate or English name>",
+  "url": "<Required: https://...>",
+  "description": "<Required: paste Phase 2 entity definition sentence verbatim>",
+  "logo": "<Optional: https://.../logo.png>",
+  "foundingDate": "<Optional: YYYY>",
+  "founder": {
+    "@type": "Person",
+    "name": "<Optional: founder name>"
+  },
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": "<Optional: integer>"
+  },
+  "sameAs": [
+    "<Required: at least 1 — Wikipedia, LinkedIn, Crunchbase, etc>",
+    "<https://...>",
+    "<https://...>"
+  ],
+  "areaServed": "<Optional: country code, e.g., KR>",
+  "knowsAbout": [
+    "<Optional: topic keyword>",
+    "<topic keyword>"
+  ]
+}

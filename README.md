@@ -24,6 +24,14 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/setup-harness
   ```
 
+## Brand & Marketing
+
+- **setup-aeo-geo** — Build a brand's AEO/GEO strategy step by step over a 3-phase roadmap. Measures AI answer share, builds canonical entity definition, scaffolds JSON-LD schema and monthly monitoring assets.
+
+  ```
+  npx skills@latest add kidow/skills/setup-aeo-geo
+  ```
+
 ## Install all skills
 
 ```
