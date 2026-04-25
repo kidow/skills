@@ -28,19 +28,20 @@
 2. **Source diversification**: presence in 4 channels — official, press, academic/professional, community.
 3. **Authority density**: repeat consistent positioning across high-authority sources.
 4. **Schema markup**: JSON-LD Organization, Product, Article, FAQ.
-5. **Content seeding**: Wikipedia, Medium, LinkedIn, YouTube (subtitles count).
+5. **Content seeding**: Namu Wiki, Medium, LinkedIn, YouTube (subtitles count).
 6. **Multilingual presence**: at least Korean + English. Same entity definition translated faithfully.
-7. **AI verification loop**: weekly/monthly prompts to LLMs, log gaps, ship corrections.
+7. **AI verification loop**: monthly prompts to LLMs, log gaps, ship corrections.
 
 ## Channels
 
 ### AI reads well
-- Wikipedia, Namu Wiki
+- Namu Wiki (open Korean wiki, low barrier)
 - Medium, Brunch (open blogs)
 - LinkedIn profiles + posts
 - YouTube (subtitles + description)
 - Official site with schema markup
 - News articles, press releases
+- Crunchbase
 
 ### AI reads partially
 - Naver Blog (limited crawling)
@@ -51,6 +52,12 @@
 - Login-walled communities
 - In-app content
 - DMs, emails, private channels
+
+## Long-term goal: Wikipedia
+
+Wikipedia is high-impact but **not a short-term target**. English Wikipedia requires 5+ independent reliable secondary sources covering the brand in depth. Most small brands fail notability and get deleted within days. Pursue only after 12+ months of press coverage and academic mentions.
+
+Korean Namu Wiki has far lower barriers — start there.
 
 ## Share thresholds (Phase 1)
 
@@ -71,7 +78,7 @@
 
 | Finding | Response |
 |---------|----------|
-| "No info" | Ship foundational content (Wikipedia, blog post, press release) |
+| "No info" | Ship foundational content (Namu Wiki, blog post, press release) |
 | "Outdated info" | Update site + republish to authority sources |
 | "Competitor first" | Increase authority density (more sources, repeated positioning) |
 | "Negative tone" | Generate positive-context content (case studies, testimonials, comparison wins) |
@@ -79,3 +86,45 @@
 ## Why entity definition consistency matters
 
 The same paragraph reworded across channels reads as **multiple different companies** to AI. Lexical drift dilutes signal. Treat the canonical sentence as immutable until a deliberate rebrand.
+
+## Schema injection per stack
+
+Detect stack from `package.json` (Next.js: `"next"`), `composer.json` + `wp-config.php` (WordPress), or absence of build files (static HTML).
+
+### Next.js (App Router)
+
+Add to `app/layout.tsx`:
+
+```tsx
+import schema from '@/organization-schema.json';
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      </head>
+      <body>{children}</body>
+    </html>
+  );
+}
+```
+
+### WordPress
+
+Install **Schema & Structured Data for WP & AMP** (or **RankMath** SEO). Paste JSON in *Schema → Custom Schema → Organization*. Or paste raw `<script type="application/ld+json">…</script>` block into theme `header.php` before `</head>`.
+
+### Static HTML
+
+Paste before `</head>` in every page that should carry brand identity (at minimum `index.html` and `about.html`):
+
+```html
+<script type="application/ld+json">
+{ ...contents of organization-schema.json... }
+</script>
+```
+
+Validate with [validator.schema.org](https://validator.schema.org/) and Google [Rich Results Test](https://search.google.com/test/rich-results).
