@@ -16,6 +16,14 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/find-npm-package
   ```
 
+## Agent Infrastructure
+
+- **setup-harness** — Build agent harness infrastructure (Constrain, Inform, Verify, Correct) on a project step by step. Generates AGENTS.md, configures Claude Code permissions and hooks, scaffolds CI gates, adds doom-loop prevention.
+
+  ```
+  npx skills@latest add kidow/skills/setup-harness
+  ```
+
 ## Install all skills
 
 ```
