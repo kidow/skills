@@ -24,6 +24,12 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/setup-harness
   ```
 
+- **perfect-prompt** — Stress-test and refine user prompts until they are specific, unambiguous, and execution-ready.
+
+  ```
+  npx skills@latest add kidow/skills/perfect-prompt
+  ```
+
 ## Brand & Marketing
 
 - **setup-aeo-geo** — Build a brand's AEO/GEO strategy step by step over a 3-phase roadmap. Measures AI answer share, builds canonical entity definition, scaffolds JSON-LD schema and monthly monitoring assets.
