@@ -16,6 +16,14 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/find-npm-package
   ```
 
+## Framework Scaffolding
+
+- **nextjs-route-scaffold** — Scaffolds Next.js App Router route files and adds only the missing conventions for a given path.
+
+  ```
+  npx skills@latest add kidow/skills/nextjs-route-scaffold
+  ```
+
 ## Agent Infrastructure
 
 - **setup-harness** — Build agent harness infrastructure (Constrain, Inform, Verify, Correct) on a project step by step. Generates AGENTS.md, configures Claude Code permissions and hooks, scaffolds CI gates, adds doom-loop prevention.
