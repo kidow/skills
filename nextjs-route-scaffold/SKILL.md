@@ -41,7 +41,7 @@ Skip files that already exist. Create only what is missing.
 | `layout.tsx` | Route needs shared UI wrapping children; always for root `app/` |
 | `loading.tsx` | Always — use shared Skeleton or create one |
 | `error.tsx` | Always |
-| `not-found.tsx` | Route has resource lookup by ID/slug, or calls `notFound()` |
+| `not-found.tsx` | Route has dynamic segments (`[id]`, `[slug]`, etc.) |
 | `global-error.tsx` | Root `app/` only |
 | `default.tsx` | Parallel route slots (`@slotName`) only — explain and confirm first |
 | `template.tsx` | Only when user explicitly requests — explain and confirm first |
