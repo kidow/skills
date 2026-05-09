@@ -25,7 +25,12 @@ description: Scaffolds necessary Next.js App Router file conventions (page.tsx, 
 - If found, use them in `loading.tsx`
 - If not found, create a reusable Skeleton component and use it
 
-**1d. Parse route characteristics**
+**1d. Check Next.js version**
+- Read `package.json` and extract the `next` version (e.g. `"next": "^16.2.0"`)
+- Strip semver prefix (`^`, `~`) and compare major.minor: **≥ 16.2 → use `unstable_retry`; < 16.2 → use `reset`**
+- Store this as `USE_UNSTABLE_RETRY` for use in Step 5
+
+**1e. Parse route characteristics**
 - **Is root layout?** (`app/layout.tsx` or `src/app/layout.tsx`) — needs `<html>` and `<body>` tags + `global-error.tsx`
 - **Has dynamic segments?** (`[slug]`, `[...slug]`, `[[...slug]]`) — affects `params` type, prompt for `generateStaticParams`
 - **Is parallel route slot?** (segment starts with `@`) — may need `default.tsx`
@@ -151,6 +156,8 @@ export default function Loading() {
 
 ### `error.tsx`
 
+**Next.js ≥ 16.2** (use `unstable_retry` — re-fetches + re-renders):
+
 ```tsx
 'use client'
 
@@ -176,13 +183,43 @@ export default function Error({
 }
 ```
 
+**Next.js < 16.2** (use `reset` — clears error state only, no re-fetch):
+
+```tsx
+'use client'
+
+import { useEffect } from 'react'
+
+export default function Error({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string }
+  reset: () => void
+}) {
+  useEffect(() => {
+    console.error(error)
+  }, [error])
+
+  return (
+    <div>
+      <h2>Something went wrong</h2>
+      <button onClick={reset}>Try again</button>
+    </div>
+  )
+}
+```
+
 - **Must be `'use client'`**
-- Use `unstable_retry` (re-fetches + re-renders) over `reset` (clears state only, no re-fetch). Use `reset` only when you explicitly want to avoid re-fetching.
-- `error.tsx` renders **inside** the parent `layout.tsx` — the surrounding layout stays intact. Keep the error UI self-contained (don't use full-page styles).
+- `error.tsx` renders **inside** the parent `layout.tsx` — surrounding layout stays intact. Keep error UI self-contained (no full-page styles).
 - Does NOT catch errors thrown by `layout.tsx` in the same segment
 - For root layout errors, use `global-error.tsx` instead
 
 ### `global-error.tsx` (root only)
+
+Same version rule applies (`USE_UNSTABLE_RETRY` from Step 1d).
+
+**Next.js ≥ 16.2:**
 
 ```tsx
 'use client'
@@ -199,6 +236,29 @@ export default function GlobalError({
       <body>
         <h2>Something went wrong</h2>
         <button onClick={unstable_retry}>Try again</button>
+      </body>
+    </html>
+  )
+}
+```
+
+**Next.js < 16.2:**
+
+```tsx
+'use client'
+
+export default function GlobalError({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string }
+  reset: () => void
+}) {
+  return (
+    <html>
+      <body>
+        <h2>Something went wrong</h2>
+        <button onClick={reset}>Try again</button>
       </body>
     </html>
   )
