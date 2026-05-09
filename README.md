@@ -48,7 +48,7 @@ A collection of agent skills for discovering and exploring open source packages 
 
 ## Visual Collaboration
 
-- **visualstorming** — Adds an optional browser-based visual companion for brainstorming with mockups, diagrams, wireframes, and side-by-side visual choices.
+- **visualstorming** — Adds an optional HTML-first visual reference for brainstorming with mockups, diagrams, wireframes, and side-by-side visual choices.
 
   ```
   npx skills@latest add kidow/skills/visualstorming

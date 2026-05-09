@@ -1,11 +1,11 @@
 ---
 name: visualstorming
-description: Adds an optional browser-based visual companion for brainstorming with mockups, diagrams, wireframes, and side-by-side visual choices. Use when a discussion would be easier to resolve visually, especially for UI layouts, flows, architecture diagrams, spatial relationships, visual hierarchy, or design direction comparisons.
+description: Adds an optional HTML-first visual reference for brainstorming with mockups, diagrams, wireframes, and side-by-side visual choices. Use when a discussion would be easier to resolve visually, especially for UI layouts, flows, architecture diagrams, spatial relationships, visual hierarchy, or design direction comparisons.
 ---
 
 # Visualstorming
 
-Use a browser as a visual companion during brainstorming. This is a tool, not a mode: use it only for questions the user can answer better by seeing options than by reading text.
+Use local HTML as a visual reference during brainstorming. This is a tool, not a mode: use it only for questions the user can answer better by seeing options than by reading text.
 
 Do not invoke writing-plans, create implementation plans, or start coding because this skill was used. Visualstorming ends when the visual question is answered or the user declines visual help.
 
@@ -15,7 +15,7 @@ When upcoming work likely benefits from visual treatment, offer visualstorming o
 
 The offer must be its own message, with no context summary or clarifying question mixed in:
 
-> Some of this may be easier to discuss visually. I can open a local browser view with mockups, diagrams, comparisons, or layout options as we go. It can use extra tokens and may require a local URL. Want to use visualstorming?
+> Some of this may be easier to discuss visually. I can open a local HTML view with mockups, diagrams, comparisons, or layout options as we go. It can use extra tokens and may require a local URL. Want to use visualstorming?
 
 Wait for the user response. If they accept, use browser visuals only when useful. If they decline, continue text-only. If they already asked for visualstorming, browser mockups, visual options, wireframes, diagrams, or a visual comparison, treat that as consent.
 
@@ -42,7 +42,7 @@ A UI topic is not automatically visual. "What should this wizard do?" is text. "
 1. Decide if the current question is visual.
 2. If not already approved, ask the consent gate question and stop.
 3. Create a local visual artifact in the current project, usually HTML.
-4. Open or serve it in a local browser using the environment's browser capability.
+4. Open it in a local browser using the environment's browser capability.
 5. Ask one focused visual question.
 6. On the next user turn, combine their text response with any browser interaction data.
 7. Continue with another visual artifact only if the next question benefits from seeing it.
@@ -88,11 +88,11 @@ Avoid broad questions like "Thoughts?", "What do you think?", or "Is this good?"
 
 Use the best browser mechanism available:
 
-- If an in-app browser tool exists, open the local file or localhost URL there.
-- If a visual companion server exists, write the screen to its content directory and read its event log on the next turn.
+- If an in-app browser tool exists, open the local HTML file or localhost URL there.
+- If a visual reference server exists, write the screen to its content directory and read its event log on the next turn.
 - If no browser tool is available, create the HTML artifact and provide the local path or URL.
 
-For server-backed companions: save `screen_dir`, `state_dir`, URL, and session directory; confirm the server is alive before each new screen; read interaction events only after the user responds in chat. Chat text is primary feedback; browser events are supporting data.
+For server-backed references: save `screen_dir`, `state_dir`, URL, and session directory; confirm the server is alive before each new screen; read interaction events only after the user responds in chat. Chat text is primary feedback; browser events are supporting data.
 
 ## Stop Conditions
 
