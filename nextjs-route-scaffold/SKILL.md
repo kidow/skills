@@ -158,10 +158,10 @@ import { useEffect } from 'react'
 
 export default function Error({
   error,
-  reset,
+  unstable_retry,
 }: {
   error: Error & { digest?: string }
-  reset: () => void
+  unstable_retry: () => void
 }) {
   useEffect(() => {
     console.error(error)
@@ -170,13 +170,15 @@ export default function Error({
   return (
     <div>
       <h2>Something went wrong</h2>
-      <button onClick={reset}>Try again</button>
+      <button onClick={unstable_retry}>Try again</button>
     </div>
   )
 }
 ```
 
-- **Must** be `'use client'`
+- **Must be `'use client'`**
+- Use `unstable_retry` (re-fetches + re-renders) over `reset` (clears state only, no re-fetch). Use `reset` only when you explicitly want to avoid re-fetching.
+- `error.tsx` renders **inside** the parent `layout.tsx` — the surrounding layout stays intact. Keep the error UI self-contained (don't use full-page styles).
 - Does NOT catch errors thrown by `layout.tsx` in the same segment
 - For root layout errors, use `global-error.tsx` instead
 
@@ -187,16 +189,16 @@ export default function Error({
 
 export default function GlobalError({
   error,
-  reset,
+  unstable_retry,
 }: {
   error: Error & { digest?: string }
-  reset: () => void
+  unstable_retry: () => void
 }) {
   return (
     <html>
       <body>
         <h2>Something went wrong</h2>
-        <button onClick={reset}>Try again</button>
+        <button onClick={unstable_retry}>Try again</button>
       </body>
     </html>
   )
