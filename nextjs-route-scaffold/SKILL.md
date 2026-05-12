@@ -1,6 +1,6 @@
 ---
 name: nextjs-route-scaffold
-description: Scaffolds necessary Next.js App Router file conventions (page.tsx, layout.tsx, error.tsx, not-found.tsx, loading.tsx, default.tsx, global-error.tsx) for a given route path. Checks existing files, reads them for context, and generates only missing files. Use when user provides a route path and wants to add missing special files, or asks to "scaffold", "create files for", or "set up route files" for a Next.js App Router route.
+description: Scaffolds necessary Next.js App Router file conventions and route-level SEO metadata (page.tsx, layout.tsx, error.tsx, not-found.tsx, loading.tsx, default.tsx, global-error.tsx, metadata, generateMetadata, canonical, robots, openGraph, twitter) for a given route path. Checks existing files, reads them for context, and generates only missing files. Use when user provides a route path and wants to add missing special files or SEO metadata, or asks to "scaffold", "create files for", or "set up route files" for a Next.js App Router route.
 ---
 
 # Next.js Route Scaffold
@@ -51,7 +51,7 @@ Skip files that already exist. Create only what is missing.
 | `default.tsx` | Parallel route slots (`@slotName`) only — explain and confirm first |
 | `template.tsx` | Only when user explicitly requests — explain and confirm first |
 
-## Step 3 — Metadata rules
+## Step 3 — Metadata and SEO rules
 
 Always include metadata. Determine placement:
 
@@ -59,6 +59,19 @@ Always include metadata. Determine placement:
 2. `page.tsx` exists and is a **Server Component** → add to `page.tsx`
 3. `page.tsx` exists and is a **Client Component** → add to `layout.tsx`
 4. Both `page.tsx` and `layout.tsx` are Client Components → **stop and ask the user**
+
+For public indexable pages, include the minimum SEO set that fits the route:
+
+- `title`
+- `description`
+- `alternates.canonical`
+- `openGraph`
+- `twitter`
+- `robots`
+
+Use `metadataBase` in the root layout when the project needs absolute URLs. For routes that should not be indexed, set `robots.index = false` and `robots.follow = false`.
+
+Keep this skill focused on route-local SEO metadata. If the user wants site-wide SEO assets such as `sitemap.ts`, `robots.ts`, or structured data conventions, use [references/seo.md](references/seo.md) for the detailed patterns.
 
 Dynamic routes use `generateMetadata`; static routes use `metadata` constant:
 

@@ -18,7 +18,7 @@ A collection of agent skills for discovering and exploring open source packages 
 
 ## Framework Scaffolding
 
-- **nextjs-route-scaffold** — Scaffolds Next.js App Router route files and adds only the missing conventions for a given path.
+- **nextjs-route-scaffold** — Scaffolds Next.js App Router route files and route-level SEO metadata for a given path.
 
   ```
   npx skills@latest add kidow/skills/nextjs-route-scaffold
