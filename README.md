@@ -54,6 +54,12 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/visualstorming
   ```
 
+- **step-by-step** — Interview the user relentlessly about a plan or design one question at a time, and draw `visualstorming` HTML references when a question needs a UI reference.
+
+  ```
+  npx skills@latest add kidow/skills/step-by-step
+  ```
+
 ## Install all skills
 
 ```
