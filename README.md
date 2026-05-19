@@ -24,6 +24,12 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/nextjs-route-scaffold
   ```
 
+- **create-nextjs-specification** — Creates an AI-ready `spec.md` file inside a Next.js `app/` route folder for a given path.
+
+  ```
+  npx skills@latest add kidow/skills/create-nextjs-specification
+  ```
+
 ## Agent Infrastructure
 
 - **setup-harness** — Build agent harness infrastructure (Constrain, Inform, Verify, Correct) on a project step by step. Generates AGENTS.md, configures Claude Code permissions and hooks, scaffolds CI gates, adds doom-loop prevention.
