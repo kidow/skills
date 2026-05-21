@@ -33,6 +33,19 @@ Once the topic is set, decide based on `levels.md` at the repo root:
 
 Match the explanation language to the language I gave the topic/context in. (e.g. Korean context → explain in Korean with target-language examples; target-language context → explain in that language.)
 
+## Visual aid when stuck
+
+If I say a piece is hard to understand, offer a visual:
+
+1. Run the `visualstorming` skill (no changes to it — just reference it) to draw a visual aid for the current concept. Its own consent gate handles asking first.
+2. Keep explaining against that visual until I say the concept clicked.
+3. Once I understand, **remove the visual artifact** that visualstorming created (delete the HTML file). The aid is temporary — do not commit it; only the lesson note gets committed.
+4. Return to the teaching loop.
+
+Use this only for concepts that are genuinely visual (structure, relationships, layout, flow). For purely verbal points, keep explaining in text.
+
+If the `visualstorming` skill is not installed, ask me once whether to install it (`npx skills@latest add kidow/skills/visualstorming`). If I decline, keep explaining without visuals.
+
 ## Saving notes (only if the working folder is a git repo)
 
 After each piece is explained, persist it:
