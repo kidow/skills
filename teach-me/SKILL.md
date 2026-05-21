@@ -35,6 +35,8 @@ Once the topic is set, decide based on `levels.md` at the repo root:
 
 Match the explanation language to the language I gave the topic/context in. (e.g. Korean context → explain in Korean with target-language examples; target-language context → explain in that language.)
 
+When a piece is complex, ground it in something from my own world — analogies to my native language, culture, or familiar domain. (e.g. a Korean learning a foreign language → "in Korean this would be like…".) Use the context language as the signal for what's familiar to me.
+
 ## Visual aid when stuck
 
 If I say a piece is hard to understand, offer a visual:
