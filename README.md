@@ -74,6 +74,12 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/teach-me
   ```
 
+- **review-me** — Review knowledge already saved in the current repo by quizzing one item at a time, Anki-style, with all scheduling state kept in a throwaway dot-folder that is deleted when the session ends.
+
+  ```
+  npx skills@latest add kidow/skills/review-me
+  ```
+
 ## Install all skills
 
 ```
