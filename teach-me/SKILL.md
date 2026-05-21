@@ -9,7 +9,19 @@ Teach me one piece of knowledge at a time about a topic. Inspired by grill-me, b
 
 - No topic given → ask which topic I want to learn. Stop and wait.
 - Context given but not a concrete topic → ask me to name a specific topic. Stop and wait.
-- A specific topic is given → pick one worthwhile piece of knowledge from it and explain it.
+- A specific topic is given → before teaching, see [Level check](#level-check), then pick one worthwhile piece of knowledge and explain it.
+
+## Level check
+
+Once the topic is set, decide based on `levels.md` at the repo root:
+
+- If `levels.md` exists and has a summary for this topic → skip the offer. Read it and calibrate the difficulty of pieces to it.
+- If it has no summary for this topic (or place-me did not just hand off) → offer a level test once:
+
+  > Want a quick level check on this topic first so I can teach at the right depth? (yes / no)
+
+  - If yes → run the `place-me` skill for this topic, then come back here and teach calibrated to its result.
+  - If no → start teaching directly.
 
 ## Teaching loop
 

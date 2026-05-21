@@ -5,6 +5,14 @@ description: Review knowledge already saved in the current repo by quizzing one 
 
 Review knowledge that is already saved in this repository. Companion to teach-me: teach-me writes notes, review-me quizzes me on them. Every bit of scheduling/grading is ephemeral.
 
+## Before starting
+
+If `levels.md` does not exist at the repo root, offer a level check first:
+
+> No level memory found. Want a quick level check with place-me before reviewing? (yes / no)
+
+If yes → run `place-me`. If no → continue.
+
 ## Targets
 
 A review item ("card") is **one `## section`** inside a knowledge note.
@@ -41,5 +49,6 @@ Each card has two learning steps. Since there is no clock, each step maps to a q
 When the queue is empty (every card graded Good or Easy), there is nothing left to review:
 
 1. Tell me the session is complete with a short summary (how many cards, how many needed repeats).
-2. Delete the `.review/` dot-folder.
-3. Do not commit anything — review-me only reads notes, it never modifies them.
+2. **Update the level memory.** If `levels.md` exists at the repo root, revise the prose summary for the reviewed topic(s) based on how this session went — what I recalled easily, what needed repeats. Update the section in place (never duplicate) and commit just that file: `review: update <topic_name> level`. If `levels.md` does not exist, skip this step.
+3. Delete the `.review/` dot-folder.
+4. Never modify the knowledge notes themselves — review-me only reads them. The only file it may write is `levels.md`.
