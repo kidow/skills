@@ -13,12 +13,22 @@ If `levels.md` does not exist at the repo root, offer a level check first:
 
 If yes → run `place-me`. If no → continue.
 
+## Scope
+
+Decide *what* to review before building the queue:
+
+- If I gave a topic/file as context → review exactly that.
+- If I gave no context:
+  - Read `levels.md` and propose the **weakest topics first** (Blank/Glimpsed before Grounded before Fluent). Ask: "Review [weak topics] today?" Stop and wait.
+  - If `levels.md` doesn't exist → ask me once which topic, folder, or file pattern to review. Stop and wait.
+
+Don't queue the entire knowledge base by default — a growing KB makes that unusable.
+
 ## Targets
 
-A review item ("card") is **one `## section`** inside a knowledge note.
+A review item ("card") is **one `## section`** inside a knowledge note, within the chosen scope.
 
-- Auto-detect notes by the teach-me pattern: `yyyy-MM-dd-*.md` (at repo root or in subfolders).
-- If no such notes exist, ask me once which folder or file pattern to review. Stop and wait.
+- Knowledge notes live under the `notes/` folder (any depth): every `.md` in `notes/` is a note.
 - Each `##` section across the matched notes becomes one card.
 
 ## Session state (ephemeral)

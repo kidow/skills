@@ -10,6 +10,7 @@ Teach me one piece of knowledge at a time about a topic. Inspired by grill-me, b
 - No topic given → ask which topic I want to learn. Stop and wait.
 - Context given but not a concrete topic → ask me to name a specific topic. Stop and wait.
 - A specific topic is given → before teaching, see [Level check](#level-check), then pick one worthwhile piece of knowledge and explain it.
+- If a note for this topic already exists (`notes/topic_name.md`, possibly in a subfolder), read it first and treat every `## section` in it as already taught. Never re-teach a covered piece — continue with a new one. (Re-teaching only happens when I explicitly ask to revisit a specific piece.)
 
 ## Level check
 
@@ -52,13 +53,12 @@ If the `visualstorming` skill is not installed, ask me once whether to install i
 After each piece is explained, persist it:
 
 1. Check `git rev-parse --is-inside-work-tree`. If not a repo, teach only — do not save or commit.
-2. Get today's date with `date +%Y-%m-%d`.
-3. Write the lesson to a markdown file at the repo root:
-   - Filename: `yyyy-MM-dd-topic_name.md` (topic_name in snake_case).
-   - One file per topic. If a file for this topic already exists (any date), update that file — never create a second file for the same topic. Append the new piece; if the same piece is being re-taught, overwrite it. Keep the original date in the filename.
+2. Write the lesson to `notes/topic_name.md` (one file per topic, all notes live under the `notes/` folder). No date in the name — git history already records when each piece was added.
+   - `topic_name`: lowercase, spaces → `_`, in the same language as the context. If a note or `levels.md` section already uses a name for this topic, reuse it exactly — this stem is the shared key across teach-me, place-me, and review-me.
+   - Append the new piece as a `## section`; if the same piece is being re-taught, overwrite that section.
    - Content: the knowledge only, no frontmatter. Write notes in the same language as the explanation.
-4. Stage and commit just that file: `learn: <topic_name> — <short piece title>`.
+3. Stage and commit just that file: `learn: <topic_name> — <short piece title>`.
 
 ## Auto-organizing structure
 
-As notes accumulate, keep the folder layout optimal automatically — no asking. When themes emerge, create subfolders (e.g. by language or domain) and move related notes in. Commit each reorganization as its own commit (`chore: reorganize notes`) so moves stay separate from new lessons.
+As notes accumulate inside `notes/`, keep its layout optimal automatically — no asking. When themes emerge, create subfolders under `notes/` (e.g. by language or domain) and move related notes in. Commit each reorganization as its own commit (`chore: reorganize notes`) so moves stay separate from new lessons.
