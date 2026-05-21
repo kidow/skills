@@ -49,6 +49,7 @@ A UI topic is not automatically visual. "What should this wizard do?" is text. "
 
 ## Artifact Rules
 
+- Store all generated design artifacts under `.visualstorming/`.
 - Prefer small HTML fragments or simple self-contained HTML files.
 - Use stable filenames that describe the screen, such as `layout-options.html`.
 - Do not reuse filenames for materially different screens; preserve previous options.
@@ -97,3 +98,5 @@ For server-backed references: save `screen_dir`, `state_dir`, URL, and session d
 ## Stop Conditions
 
 Stop using visualstorming when the user declines, remaining decisions are conceptual, the visual choice has enough signal, or browser setup costs more than the decision warrants.
+
+When the discussion is complete and you transition to implementation planning, remove visualstorming artifacts that were created for that discussion from `.visualstorming/`.
