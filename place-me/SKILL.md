@@ -28,7 +28,12 @@ When confident, persist the result:
 1. Check `git rev-parse --is-inside-work-tree`. If not a repo, just tell me the result — do not save or commit.
 2. Write to a single unified file `levels.md` at the repo root (git-tracked, no date in the name):
    - One `## topic_name` section per topic.
-   - Content: a **prose summary** of my level — what I clearly know, what I'm shaky on, what I don't know yet. No fixed grade labels.
+   - Content: open with one of four level labels, then a prose summary of what I clearly know, what I'm shaky on, and what I don't know yet.
+     - **Blank** — no prior exposure to the concept.
+     - **Glimpsed** — seen it before but cannot reproduce or explain it reliably.
+     - **Grounded** — explains it independently and applies it correctly in new contexts.
+     - **Fluent** — handles exceptions, nuance, and edge cases without hesitation.
+   - Example: `Level: Grounded — Knows X and Y, applies them correctly, shaky on Z, hasn't encountered W yet.`
    - If a section for this topic exists, update it in place; never duplicate.
 3. Commit just that file: `place: <topic_name> level assessment`.
 

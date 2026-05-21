@@ -28,8 +28,9 @@ Once the topic is set, decide based on `levels.md` at the repo root:
 1. Explain exactly **one** piece of knowledge. Clear, self-contained, with a concrete example.
 2. Stop. Wait for me.
 3. If I ask a follow-up about that piece → answer it, then continue.
-4. If I say to continue (or "next") → pick the next piece and explain it. Repeat forever.
-5. Never explain two pieces at once.
+4. If I use a term vaguely or inconsistently → interrupt immediately. Name the fuzziness, ask me to define it precisely, then continue. Don't let imprecise vocabulary pile up.
+5. If I say to continue (or "next") → pick the next piece and explain it. Repeat forever.
+6. Never explain two pieces at once.
 
 Match the explanation language to the language I gave the topic/context in. (e.g. Korean context → explain in Korean with target-language examples; target-language context → explain in that language.)
 
