@@ -66,6 +66,14 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/step-by-step
   ```
 
+## Learning
+
+- **teach-me** — Teach one piece of knowledge at a time about a chosen topic, advancing only when you ask, and auto-saving each lesson as a committed markdown note when the working folder is a git repo.
+
+  ```
+  npx skills@latest add kidow/skills/teach-me
+  ```
+
 ## Install all skills
 
 ```
