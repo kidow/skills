@@ -50,6 +50,25 @@ Use this only for concepts that are genuinely visual (structure, relationships, 
 
 If the `visualstorming` skill is not installed, ask me once whether to install it (`npx skills@latest add kidow/skills/visualstorming`). If I decline, keep explaining without visuals.
 
+## Audio aid for pronunciation (foreign language topics)
+
+When the topic is a foreign language and pronunciation of a word or phrase is relevant, offer to let me hear it:
+
+1. Generate a standalone HTML file (`audio_aid.html`) at the repo root containing:
+   - The target-language text displayed large and centered
+   - Its romanization / reading below
+   - Its meaning in the context language
+   - A play button that fetches audio from Google Translate TTS:
+     `https://translate.google.com/translate_tts?ie=UTF-8&q=TEXT&tl=LANG&client=tw-ob&ttsspeed=0.85`
+   - A hidden `<audio>` element driven by JavaScript
+   - Minimal dark styling
+2. Open the file: `open audio_aid.html` (macOS) or `xdg-open audio_aid.html` (Linux).
+3. After I confirm I heard it, **delete the file**. It is ephemeral — do not commit it.
+
+If the Google Translate TTS request fails (CORS block or network error), fall back to `SpeechSynthesisUtterance` with the appropriate language code.
+
+Use this only when pronunciation genuinely matters (foreign language phonetics, tone, rhythm). Skip for purely conceptual or text-based pieces.
+
 ## Saving notes (only if the working folder is a git repo)
 
 After each piece is explained, persist it:
