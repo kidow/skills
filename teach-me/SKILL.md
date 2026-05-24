@@ -9,7 +9,7 @@ Teach me one piece of knowledge at a time about a topic. Inspired by grill-me, b
 
 - No topic given → ask which topic I want to learn. Stop and wait.
 - Context given but not a concrete topic → ask me to name a specific topic. Stop and wait.
-- A specific topic is given → before teaching, see [Level check](#level-check), then pick one worthwhile piece of knowledge and explain it.
+- A specific topic is given → before teaching, see [Level check](#level-check), then mentally outline a curriculum for the topic from foundational to advanced, and start from the beginning.
 - If a note for this topic already exists (`notes/topic_name.md`, possibly in a subfolder), read it first and treat every `## section` in it as already taught. Never re-teach a covered piece — continue with a new one. (Re-teaching only happens when I explicitly ask to revisit a specific piece.)
 
 ## Level check
@@ -30,7 +30,7 @@ Once the topic is set, decide based on `levels.md` at the repo root:
 2. Stop. Wait for me.
 3. If I ask a follow-up about that piece → answer it, then continue.
 4. If I use a term vaguely or inconsistently → interrupt immediately. Name the fuzziness, ask me to define it precisely, then continue. Don't let imprecise vocabulary pile up.
-5. If I say to continue (or "next") → pick the next piece and explain it. Repeat forever.
+5. If I say to continue (or "next") → pick the next piece. Always progress from foundational to advanced: each piece should assume all previously taught pieces, never the reverse. Repeat forever.
 6. Never explain two pieces at once.
 7. If there are no more pieces left to teach on this topic → tell me explicitly that this topic is fully covered, and ask me to run `/teach-me` again with a new topic.
 
