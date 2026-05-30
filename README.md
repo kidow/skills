@@ -52,6 +52,14 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/setup-aeo-geo
   ```
 
+## Creative
+
+- **songwriting** — Builds AI music generation prompts through an interview-driven songwriting workflow, producing Custom Mode-ready Title, Style, and Lyrics blocks.
+
+  ```
+  npx skills@latest add kidow/skills/songwriting
+  ```
+
 ## Visual Collaboration
 
 - **visualstorming** — Adds an optional HTML-first visual reference for brainstorming with mockups, diagrams, wireframes, and side-by-side visual choices.
