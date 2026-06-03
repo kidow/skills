@@ -19,8 +19,13 @@ description: Scaffolds necessary Next.js App Router file conventions and route-l
   - Import patterns and UI library in use
   - Whether components are Server or Client Components (`'use client'` directive)
   - Styling approach (Tailwind, CSS modules, etc.)
+  - Whether the `Page` function is **async or sync** — store as `PAGE_IS_ASYNC`
+    - If `page.tsx` does not exist yet, treat as `PAGE_IS_ASYNC = true` (new page will be async by default)
+    - If `page.tsx` exists and its default export is `async function`, `PAGE_IS_ASYNC = true`
+    - If `page.tsx` exists and its default export is a plain (non-async) `function`, `PAGE_IS_ASYNC = false`
 
 **1c. Search for shared Skeleton/Loading components**
+- Only relevant when `PAGE_IS_ASYNC = true`
 - Before creating `loading.tsx`, search the project for existing Skeleton or Loading components (common locations: `components/ui/`, `components/common/`, `components/shared/`)
 - If found, use them in `loading.tsx`
 - If not found, create a reusable Skeleton component and use it
@@ -44,7 +49,7 @@ Skip files that already exist. Create only what is missing.
 |------|-------------|
 | `page.tsx` | Always — makes route publicly accessible |
 | `layout.tsx` | Route needs shared UI wrapping children; always for root `app/` |
-| `loading.tsx` | Always — use shared Skeleton or create one |
+| `loading.tsx` | Only when `PAGE_IS_ASYNC = true` — use shared Skeleton or create one; if `PAGE_IS_ASYNC = false` and `loading.tsx` exists, **delete it** |
 | `error.tsx` | Always |
 | `not-found.tsx` | Route has dynamic segments (`[id]`, `[slug]`, etc.) |
 | `global-error.tsx` | Root `app/` only |
