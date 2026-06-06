@@ -1,3 +1,5 @@
+[![skills.sh](https://skills.sh/b/kidow/skills)](https://skills.sh/kidow/skills)
+
 # Agent Skills
 
 A collection of agent skills for discovering and exploring open source packages and repositories.
