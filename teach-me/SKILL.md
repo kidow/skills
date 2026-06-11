@@ -28,7 +28,7 @@ Once the topic is set, decide based on `levels.md` at the repo root:
 
 1. Explain exactly **one** piece of knowledge. Clear, self-contained, with a concrete example.
 2. Stop. Wait for me.
-3. If I ask a follow-up about that piece → answer it, then continue.
+3. If I ask a follow-up about that piece → answer it. If the answer adds non-obvious insight (not just restating the piece), append it to the note under the current `## section` as a `**Q:** … / **A:** …` block, then commit: `learn: <topic_name> — <short piece title> (follow-up)`. Trivial confirmations ("맞죠?", "got it?") are not saved.
 4. If I use a term vaguely or inconsistently → interrupt immediately. Name the fuzziness, ask me to define it precisely, then continue. Don't let imprecise vocabulary pile up.
 5. If I say to continue (or "next") → pick the next piece. Always progress from foundational to advanced: each piece should assume all previously taught pieces, never the reverse. Repeat forever.
 6. Never explain two pieces at once.
