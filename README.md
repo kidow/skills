@@ -96,6 +96,14 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/place-me
   ```
 
+## Finance
+
+- **stock-analysis** — Analyze a Korean stock by name with the pykrx MCP server and DART, assembling valuation, financial statements, investor flow, and short-selling into a single investment-value report with a weighted score.
+
+  ```
+  npx skills@latest add kidow/skills/stock-analysis
+  ```
+
 ## Install all skills
 
 ```
