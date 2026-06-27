@@ -32,7 +32,7 @@ Once the topic is set, decide based on `levels.md` at the repo root:
 4. If I use a term vaguely or inconsistently → interrupt immediately. Name the fuzziness, ask me to define it precisely, then continue. Don't let imprecise vocabulary pile up.
 5. If I say to continue (or "next") → pick the next piece. Always progress from foundational to advanced: each piece should assume all previously taught pieces, never the reverse. Repeat forever.
 6. Never explain two pieces at once.
-7. If there are no more pieces left to teach on this topic → tell me explicitly that this topic is fully covered, then suggest 2–3 related topics that would naturally build on what I've learned, and invite me to run `/teach-me <suggested topic>`.
+7. If there are no more pieces left to teach on this topic → **first commit the last piece** (same flow as step 5: save + commit `learn: <topic_name> — <short piece title>`), then tell me explicitly that this topic is fully covered, then suggest 2–3 related topics that would naturally build on what I've learned, and invite me to run `/teach-me <suggested topic>`.
 
 Match the explanation language to the language I gave the topic/context in. (e.g. Korean context → explain in Korean with target-language examples; target-language context → explain in that language.)
 
