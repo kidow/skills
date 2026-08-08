@@ -84,6 +84,12 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/teach-me
   ```
 
+- **study-me** — Freely study knowledge already saved in the current repo by extracting as many content-based questions as each note section supports and asking them one at a time, with no grading or scheduling.
+
+  ```
+  npx skills@latest add kidow/skills/study-me
+  ```
+
 - **review-me** — Review knowledge already saved in the current repo by quizzing one item at a time with spaced-repetition scheduling, keeping all session state in a throwaway dot-folder that is deleted when the session ends.
 
   ```
