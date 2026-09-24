@@ -56,7 +56,7 @@ A collection of agent skills for discovering and exploring open source packages 
 
 ## Creative
 
-- **songwriting** — Builds AI music generation prompts through an interview-driven songwriting workflow, producing Custom Mode-ready Title, Style, and Lyrics blocks.
+- **songwriting** — Builds ACE-Step 1.5 music generation prompts through an interview-driven songwriting workflow, producing Custom Mode-ready Title, Style, Lyrics, and Params blocks.
 
   ```
   npx skills@latest add kidow/skills/songwriting
