@@ -46,6 +46,14 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/perfect-prompt
   ```
 
+## Communication
+
+- **three-lines** — Compress any content into at most three dense lines for a specific reader, by predicting the three questions they would ask first and answering one per line. Great for sharing a bug fix with a teammate.
+
+  ```
+  npx skills@latest add kidow/skills/three-lines
+  ```
+
 ## Brand & Marketing
 
 - **setup-aeo-geo** — Build a brand's AEO/GEO strategy step by step over a 3-phase roadmap. Measures AI answer share, builds canonical entity definition, scaffolds JSON-LD schema and monthly monitoring assets.
