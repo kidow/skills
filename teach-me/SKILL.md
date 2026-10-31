@@ -51,6 +51,18 @@ Use this only for concepts that are genuinely visual (structure, relationships, 
 
 If the `visualstorming` skill is not installed, ask me once whether to install it (`npx skills@latest add kidow/skills/visualstorming`). If I decline, keep explaining without visuals.
 
+## Illustrations in notes
+
+Unlike the temporary visual aid above, an illustration is a permanent part of the lesson. When a piece is about structure, flow, relationships, or comparison (not a purely verbal point), add one diagram to that piece without asking:
+
+1. Look for the repo's illustration convention first (e.g. `assets/images/notes/README.md`, `manifest.json`, existing `<figure>` blocks in other notes). If one exists, follow it exactly — style, asset folder, figure markup, alt text, caption, manifest entry. Reuse an existing asset when the concept is the same.
+2. If no convention exists, draw a small self-contained SVG next to the note and embed it with standard Markdown.
+3. Place the figure right under the `## section` heading it explains. Keep text inside the image to short labels; the explanation stays in the note.
+4. Show the image in the chat too (send the file or describe where it is) so I see it while learning.
+5. Commit the image, its manifest entry, and the note together in the lesson commit.
+
+One illustration per piece at most. Skip it for pieces that a diagram would not make clearer.
+
 ## Audio aid for pronunciation (foreign language topics)
 
 When the topic is a foreign language and pronunciation of a word or phrase is relevant, offer to let me hear it:

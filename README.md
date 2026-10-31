@@ -92,7 +92,7 @@ A collection of agent skills for discovering and exploring open source packages 
 
 ## Learning
 
-- **teach-me** — Teach one piece of knowledge at a time about a chosen topic, following a foundational-to-advanced curriculum, advancing only when you ask, auto-saving each lesson as a committed markdown note, offering audio pronunciation aids for foreign language topics, and notifying you when a topic is fully covered.
+- **teach-me** — Teach one piece of knowledge at a time about a chosen topic, following a foundational-to-advanced curriculum, advancing only when you ask, auto-saving each lesson as a committed markdown note, adding a diagram to lessons about structure or flow (following the repo's illustration convention when one exists), offering audio pronunciation aids for foreign language topics, and notifying you when a topic is fully covered.
 
   ```
   npx skills@latest add kidow/skills/teach-me
