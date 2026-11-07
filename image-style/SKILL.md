@@ -24,6 +24,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [pixel-sticker](styles/pixel-sticker/STYLE.md) | Cute, soft pixel art sticker of the main subject on pure white | Turning a photo's subject into a collectible sticker or profile image |
 | [midcentury-cut-paper](styles/midcentury-cut-paper/STYLE.md) | Bold geometric cut-paper shapes in flat midcentury colors on a solid background | Turning food photos into modernist wall-art illustrations |
 | [bold-organic-shapes](styles/bold-organic-shapes/STYLE.md) | Oversized hand-cut organic masses in 2-4 bold colors with asymmetrical cropping and a matte print finish | Turning food photos into abstract gallery-style graphics |
+| [detailed-crayon-rendering](styles/detailed-crayon-rendering/STYLE.md) | Faithful, detailed subject in dense waxy crayon strokes | Turning photos into warm crayon drawings that keep their detail |
 
 ## Convert an image
 
