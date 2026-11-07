@@ -29,6 +29,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [piet-mondrian](styles/piet-mondrian/STYLE.md) | Asymmetrical grid of black lines and primary-color rectangles in layered paper | Turning photos into Mondrian-style geometric abstractions |
 | [joseon-genre-painting](styles/joseon-genre-painting/STYLE.md) | Late Joseon Korean genre painting with lively ink lines and pale washes on aged paper | Turning photos of people into warm traditional Korean paintings |
 | [minimal-face-grid](styles/minimal-face-grid/STYLE.md) | Naive black-and-white line portraits in hand-drawn square frames | Turning photos of people into quirky portrait grids |
+| [cubist-illustration](styles/cubist-illustration/STYLE.md) | Flat overlapping planes from several viewpoints in bright colors with bold outlines | Turning photos into modern Cubist illustrations |
 
 ## Convert an image
 
