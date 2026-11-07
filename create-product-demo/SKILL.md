@@ -1,130 +1,130 @@
 ---
 name: create-product-demo
-description: 실제 프로덕트 UI로 짧은 기능 소개·사용법 영상을 만들거나 다듬을 때 사용한다. 단계별 시안 협의, 자연스러운 커서·타이핑·처리 대기, 촬영용 목업, MP4 검증을 다룬다.
+description: Creates or refines short feature-intro and how-to videos using the real product UI. Covers step-by-step draft agreement, natural cursor, typing, and processing waits, filming mockups, and MP4 verification. Use when the user wants to make or polish a product demo, feature intro, or tutorial video from actual screens.
 ---
 
-# 실제 화면으로 만드는 프로덕트 소개 영상
+# Product Demo Videos from Real Screens
 
-사용자가 기능을 어디서 시작하고 어떻게 완료하는지 한 번 보고 이해할 수 있는 영상을 만든다. 설명 문구를 화면에 띄우는 것에 의존하지 않고, 실제 UI의 조작과 피드백을 중심으로 구성한다.
+Make a video that lets viewers understand, in one watch, where a feature starts and how it finishes. Build it around real UI interaction and feedback rather than relying on explanatory text placed over the screen.
 
-이 문서는 제작 절차와 품질 기준이다. 특정 서비스의 데이터 변경이나 외부 게시를 허용하는 지시는 아니다. 사용자의 최신 요청, 프로젝트 규칙, 이미 합의한 선택을 우선한다.
+This document defines the production process and quality bar. It does not authorize changing a service's data or publishing externally. The user's latest request, project rules, and choices already agreed on take priority.
 
-## 1. 목표와 촬영 범위를 먼저 맞춘다
+## 1. Align on the goal and filming scope first
 
-현재 대화와 작업물을 확인하고 이미 정한 사항은 다시 묻지 않는다. 아래에서 결과를 좌우하는 정보만 보충하며, 질문은 중요한 결정 하나씩 권장안을 붙여 진행한다.
+Check the current conversation and work so far, and don't re-ask what is already decided. Fill in only the information below that affects the result, asking about one important decision at a time with a recommendation attached.
 
-- 누구에게 어떤 기능을 알리는지, 보고 나서 무엇을 할 수 있어야 하는지.
-- 어디에 넣는 영상인지, 데스크톱·모바일 중 어느 화면인지.
-- 보여줄 시작 상태와 완료 상태, 포함해야 하는 옵션.
-- 길이·화면 비율·음성 여부, 참고 영상에서 좋아하는 움직임.
+- Who the feature is being introduced to, and what they should be able to do after watching.
+- Where the video will be placed, and whether it shows the desktop or mobile screen.
+- The start and end states to show, and the options that must be included.
+- Length, aspect ratio, whether there is audio, and any movement the user likes in reference videos.
 
-짧은 데스크톱 기능 소개에는 **15초 / 가로 16:9 / 1920×1080 / 60fps / 무음 MP4**를 출발점으로 제안할 수 있다. 매체와 내용에 맞춰 길이·비율·음성을 정하고, 모바일 화면이나 세로형 배포에는 그에 맞는 구성을 사용한다. 행동이 겹칠 정도로 긴 흐름이면 입력 내용을 줄이거나 덜 중요한 단계를 생략하거나 길이를 늘린다. 모든 행동을 무조건 15초 안에 밀어 넣지 않는다.
+For a short desktop feature intro, **15 seconds / landscape 16:9 / 1920×1080 / 60fps / silent MP4** can be proposed as a starting point. Set length, ratio, and audio to suit the medium and content, and use a matching composition for mobile screens or vertical distribution. If the flow is long enough that actions overlap, shorten the input, drop less important steps, or extend the length. Don't force every action into 15 seconds at all costs.
 
-## 2. 실제 흐름과 화면을 확인한다
+## 2. Check the real flow and screens
 
-1. 사용자가 지정한 앱·환경에서 진입 → 작성·선택 → 옵션 → 실행 → 완료의 실제 경로를 확인한다. 버튼 이름, 플레이스홀더, 로딩 상태, 등록 후 화면을 관찰한다.
-2. 참고 사이트가 있으면 접근 가능한 실제 화면이나 영상을 확인한다. 인상만 복제하지 말고 커서 감속, 이동 거리, 정지 시간, 확대·축소의 목적을 추출한다.
-3. 실제 제품의 폰트·색·간격·아이콘·버튼·사진 비율을 유지한다. 핵심 UI를 임의로 새 디자인으로 바꾸지 않는다.
-4. 로그인 등 사용자 조작이 필요한 경우 필요한 단계만 안내한다. 실서비스에 촬영용 글이나 데이터를 임의로 만들지 않는다.
+1. In the app and environment the user specified, confirm the real path of entry → compose or select → options → run → done. Observe button names, placeholders, loading states, and the screen after submission.
+2. If there is a reference site, look at the actual screens or videos you can access. Don't just copy the impression; extract the cursor deceleration, travel distance, pause lengths, and the purpose of each zoom in and out.
+3. Keep the real product's fonts, colors, spacing, icons, buttons, and photo ratios. Don't arbitrarily redesign core UI.
+4. When login or another user action is needed, guide the user through only the necessary steps. Don't create filming posts or data on the live service on your own.
 
-원본 화면은 별도로 보존한다. 촬영용 텍스트·사진·개인정보 정리는 복사본이나 로컬 영상 합성에서 처리한다. 서비스 코드 수정이 필요한 경우에는 별도 개발 작업임을 구분한다.
+Preserve the original screens separately. Handle filming text, photos, and personal-information cleanup in a copy or in local video compositing. If service code needs changing, flag that as separate development work.
 
-## 3. 짧은 모션 시안을 먼저 보여준다
+## 3. Show a short motion draft first
 
-전체를 정교하게 렌더링하기 전에 대표 구간으로 속도와 연출을 확인한다. 이미 동의한 속도·비율은 이후 수정에서도 유지한다.
+Before rendering the whole video in detail, confirm speed and direction with a representative section. Keep speed and ratio already agreed on through later revisions.
 
-실제 화면을 중심에 두고, 지금 수행하는 행동이 읽힐 만큼만 확대한다. 불필요한 QR·주변 패널·개인정보는 촬영 영역에서 제외할 수 있다. 여백과 카메라 위치를 조절하되 버튼·입력 위치를 가리지 않는다. 자막은 이해에 필요한 경우에만 사용한다.
+Keep the real screen at the center, and zoom in only enough for the current action to read. Unneeded QR codes, surrounding panels, and personal information can be left out of the filming area. Adjust margins and camera position without hiding where buttons and inputs are. Use captions only when needed for understanding.
 
-## 4. 촬영용 목업과 첨부 자산을 정돈한다
+## 4. Tidy filming mockups and attached assets
 
-개발 환경의 무의미한 문자열, 테스트 계정명, 반복된 빈 항목은 자연스러운 가상 콘텐츠로 교체한다. 해당 제품에서 볼 법한 이름·내용·시각·수치로 맞추고, 메뉴나 모달이 열린 배경에도 동일한 목업을 적용한다.
+Replace meaningless development strings, test account names, and repeated empty items with natural fictional content. Match the names, content, times, and figures you would expect to see in that product, and apply the same mockup to the background behind open menus and modals.
 
-기본 방법은 **영상용 로컬 치환**이다. 실제 서버 데이터를 채우는 방식이 필요하면 대상 환경과 생성·수정 범위를 사용자에게 확인한다. 한 번 허용된 테스트 항목 생성이 추가 생성이나 상용 변경까지 허용하는 것은 아니다. 목업과 실제 캡처의 사용 범위를 결과에 짧게 밝힌다.
+The default method is **local replacement for the video**. If filling real server data is needed, confirm the target environment and the scope of creation and changes with the user. Permission to create a test item once does not extend to further creation or production changes. State briefly in the result where mockups and real captures were used.
 
-첨부 사진은 제품 맥락에 맞는 실제 자산을 우선한다. 사용자 영상에서 썸네일을 추출할 때는 다음을 확인한다.
+For attached photos, prefer real assets that fit the product context. When extracting thumbnails from a user's video, check the following.
 
-- 회전 메타데이터와 실제 픽셀 방향을 구분하고 원하는 가로·세로 방향을 눈으로 확인한다.
-- 피사체나 화면의 중요한 부분이 잘리지 않는 선명한 프레임을 고른다. 자동 중앙 크롭으로 필요한 정보를 잃지 않는다.
-- 편집 화면과 완료 화면에 같은 이미지·내용을 쓴다.
-- 예시 문구는 사용한 자산의 내용과 제품의 사용 목적에 맞춘다. 자산에서 확인할 수 없는 사실이나 기능을 꾸며내지 않는다.
+- Distinguish rotation metadata from actual pixel orientation, and visually confirm the desired landscape or portrait orientation.
+- Pick a sharp frame that doesn't cut off the subject or important parts of the screen. Don't lose needed information to an automatic center crop.
+- Use the same image and content on the editing and completion screens.
+- Match sample copy to the content of the asset used and to the product's purpose. Don't invent facts or features that can't be confirmed from the asset.
 
-## 5. 모든 움직임을 하나의 행동 타임라인으로 묶는다
+## 5. Tie all movement to a single action timeline
 
-장면, 커서, 클릭, 타이핑, 카메라를 따로 밀고 당기면 순서가 쉽게 어긋난다. 다음 이벤트를 공통 시간 기준으로 정의하고, 관련 키프레임은 그 이벤트에서 함께 계산한다.
+Pushing and pulling scenes, cursor, clicks, typing, and camera separately makes the order slip easily. Define the following events on a common time base, and compute related keyframes together from those events.
 
-`화면 준비 → 커서 도착 → 클릭 → UI 반응 → 입력 완료 → 잠깐 확인 → 다음 이동 → 실행 클릭 → 처리 중 → 완료`
+`Screen ready → cursor arrives → click → UI reacts → input complete → brief check → move to next → run click → processing → done`
 
-### 카메라와 확대·축소
+### Camera and zoom
 
-- 본문 작성뿐 아니라 FAB, 메뉴 선택, 이미지 업로드, 옵션, 저장 등 주요 행동에도 확대를 검토한다. 같은 구도에서 이어지는 클릭은 확대를 유지해 불필요한 왕복을 줄인다. 본문 작성이 끝나면 전체 화면으로 돌아와 다음 행동의 위치를 보여준다.
-- **본문은 글 영역 전체가 중앙에 읽히도록**, **가장자리 버튼은 주변 UI와 원래 배치가 보이도록** 구도를 잡는다. FAB·업로드·토글·저장 버튼을 모두 화면 정중앙으로 옮기지 않는다. 버튼 전체와 관련 라벨이 잘리지 않도록 여백을 확보한다. 커서의 클릭 좌표와 카메라의 중심 좌표를 구분한다.
-- 확대는 최종 재생 크기에서 글과 행동이 읽힐 만큼 충분히 한다. 이번 기준 시안은 본문 약 2.2배, 가장자리 버튼 약 1.9~2배였다. 고정값으로 강제하지 말고 원본 해상도·대상 크기·주변 맥락에 맞춘다.
-- 카메라 이동은 약 **0.6~0.8초의 ease-out**을 출발점으로 한다. 이번에는 0.25초 전환이 너무 빨랐고 약 0.7초가 적합했다. [Out Cubic](https://www.easing.dev/out-cubic)의 `cubic-bezier(0.215, 0.61, 0.355, 1)`을 참고할 수 있다. 커서 이동 속도와 카메라 이동 속도를 별도로 조정한다. 곡선 이름만 바꾸지 말고 실제 전환 시간과 출력 움직임을 확인한다.
-- **기존 줌 위에 줌을 덧씌우지 않는다.** 입력 MP4에 이미 카메라 움직임이 있으면 먼저 확인한다. 원본 캡처·타임라인이 있으면 그 카메라 경로를 교체해 다시 렌더링한다. 없으면 복구 가능한 범위를 확인하고, 중첩된 두 단계 줌이 생기는 방식을 피한다.
-- 화면과 커서에 하나의 카메라 변환을 적용한다. 위치와 배율은 실제 뷰포트 사각형을 기준으로 함께 보간하고, 매 프레임 크롭 좌표·크기를 정수로 반올림하지 않는다. 소수점 좌표를 지원하는 리샘플링으로 미세한 이동의 계단 현상을 줄인다. 경계 제한이 보간 도중 갑자기 걸리지 않도록 최종 구도를 먼저 정한다.
-- 여백 확장이 필요한 경우 제품의 빈 배경만 자연스럽게 연장한다. 아이콘·문자·툴바가 포함된 가장자리 픽셀을 늘려 줄무늬를 만들거나 화면 밖 기능을 꾸며내지 않는다. 가장자리 버튼을 중앙에 놓기 위한 불필요한 배경 확장은 피한다.
+- Consider zooming not only for body text but also for key actions such as the FAB, menu selection, image upload, options, and save. Hold the zoom across consecutive clicks in the same framing to avoid needless back and forth. When body text is finished, return to the full screen to show where the next action is.
+- Frame **body text so the whole text area reads at the center**, and **edge buttons so the surrounding UI and original layout stay visible**. Don't move every FAB, upload, toggle, and save button to dead center. Leave margin so the whole button and its label aren't cut off. Keep the cursor's click coordinates distinct from the camera's center coordinates.
+- Zoom enough that text and actions read at the final playback size. The reference draft used about 2.2x for body text and about 1.9–2x for edge buttons. Don't enforce these as fixed values; fit them to the source resolution, target size, and surrounding context.
+- Start camera moves at about **0.6–0.8 seconds of ease-out**. In the reference draft, a 0.25-second transition was too fast and about 0.7 seconds was right. [Out Cubic](https://www.easing.dev/out-cubic), `cubic-bezier(0.215, 0.61, 0.355, 1)`, is a useful reference. Tune cursor speed and camera speed separately. Don't just swap the curve name; check the real transition time and output motion.
+- **Don't stack a zoom on top of an existing zoom.** If the input MP4 already has camera movement, check that first. If the source capture or timeline exists, replace its camera path and re-render. If not, check what can be recovered, and avoid any approach that produces a nested two-stage zoom.
+- Apply one camera transform to both screen and cursor. Interpolate position and scale together based on the actual viewport rectangle, and don't round crop coordinates or sizes to integers per frame. Use resampling that supports fractional coordinates to reduce stair-stepping in small movements. Settle the final framing first so boundary clamps don't suddenly kick in mid-interpolation.
+- When margin extension is needed, extend only the product's empty background, naturally. Don't stretch edge pixels containing icons, text, or toolbars into streaks, or invent features outside the screen. Avoid needless background extension just to center an edge button.
 
-### 커서와 포커스
+### Cursor and focus
 
-- 이동은 감속하는 ease-out을 기본으로 한다. 예: `easeOutCubic(t) = 1 - (1 - t)^3`. 긴 이동을 짧은 시간에 순간적으로 끝내지 않는다.
-- 입력창 진입은 거리와 화면 전환을 고려해 약 0.6~0.9초부터 조정한다. 도착 직후 클릭하거나 다음 행동으로 튕기지 말고 짧게 안착시킨다.
-- 텍스트에어리어의 중심이 아니라 **플레이스홀더 첫 글자의 시작 위치**를 목표로 한다. 요소의 테두리 좌표가 아닌 내부 여백·폰트·행간을 포함한 실제 텍스트 위치를 측정한다.
-- 마우스 핫스폿, 클릭 표시, 입력 캐럿, 첫 글자의 시작점이 같은 좌표계를 쓰게 한다. 확대·크롭 변환을 화면과 커서에 동일하게 적용한다.
-- 클릭 후 잠깐 머문 다음 입력을 시작한다. 포커스된 빈 입력창에서는 플레이스홀더와 캐럿의 동작도 제품에 맞춘다.
-- 포인터가 글자를 가리면 입력 시작 후 빈 영역으로 자연스럽게 옮긴다. 다음 버튼으로 이동하는 행동은 해당 입력이 완료된 뒤 시작한다.
+- Default to a decelerating ease-out for movement. Example: `easeOutCubic(t) = 1 - (1 - t)^3`. Don't finish a long move instantly in a short time.
+- Start tuning entry into an input at about 0.6–0.9 seconds, considering distance and screen transitions. Don't click right on arrival or bounce into the next action; let the cursor settle briefly.
+- Target **the start of the placeholder's first character**, not the center of the textarea. Measure the actual text position, including inner padding, font, and line height, rather than the element's border coordinates.
+- Make the mouse hotspot, click indicator, input caret, and first character's start point share one coordinate system. Apply zoom and crop transforms identically to the screen and cursor.
+- Pause briefly after clicking, then start typing. In a focused empty input, match the placeholder and caret behavior to the product.
+- If the pointer covers text, move it naturally to an empty area after typing starts. Begin moving to the next button only after that input is complete.
 
-### 타이핑
+### Typing
 
-- 여러 글자가 덩어리로 나타나거나 화면 전체가 교차 페이드되는 효과를 피한다. 한국어는 읽을 수 있는 음절 단위부터 구현한다. 실제 IME 조합은 재현할 수 있을 때만 사용한다.
-- 기본 입력 간격에 작은 차이를 두고, 문장 끝·공백·줄바꿈에는 문맥에 맞는 여유를 준다. 과도한 무작위 지연은 피한다.
-- 입력 중 캐럿은 안정적으로 유지하고 멈췄을 때만 점멸시킨다. 글자 수와 버튼 활성화 상태도 입력량에 맞춘다.
-- 원본 글자 픽셀을 순서대로 공개하는 합성을 사용해도 된다. 실제 폰트와 줄바꿈을 유지하고, 이 방식으로 제품 UI를 새로 꾸미지 않는다.
+- Avoid several characters appearing in a chunk or the whole screen cross-fading. For Korean, implement from readable syllable units. Use real IME composition only when it can be reproduced.
+- Add small variation to the base typing interval, and give sentence ends, spaces, and line breaks room that fits the context. Avoid excessive random delay.
+- Keep the caret steady while typing and blink it only when stopped. Match character counts and button enabled states to the amount typed.
+- Compositing that reveals the source text's pixels in order is acceptable. Keep the real font and line breaks, and don't use this approach to restyle product UI.
 
-### 입력 완료와 다음 행동
+### Input completion and the next action
 
-- 마지막 글자 입력 후 약 0.25~0.4초를 두고 다음 버튼으로 이동한다. 사진 업로드 버튼을 입력 중에 먼저 클릭하지 않는다.
-- 버튼 도착 → 클릭 → 첨부 반영 순서를 지킨다. 사진 반영 전부터 첨부 완료 화면을 보여주지 않는다.
-- 커서만 늦추지 말고 관련 카메라 이동과 장면 전환도 함께 조정한다. 본문을 다 읽기도 전에 화면이 아래로 이동하면 안 된다.
+- After the last character, wait about 0.25–0.4 seconds before moving to the next button. Don't click the photo upload button while typing is still in progress.
+- Keep the order of button arrival → click → attachment appears. Don't show the attached state before the photo is applied.
+- Don't only slow the cursor; adjust the related camera moves and scene transitions with it. The screen must not move down before the body text can be read.
 
-### 실행과 완료
+### Run and completion
 
-- 등록·저장·전송 클릭과 완료 화면을 같은 순간에 붙이지 않는다. 제품에 있는 비활성 버튼이나 ‘저장 중…’ 같은 처리 상태를 활용한다.
-- 짧은 소개 영상에서는 약 0.7~1.2초의 처리 여유부터 검토한다. 이는 연출의 출발점이며 실제 성능을 주장하는 수치가 아니다. 제품에 없는 피드백 UI를 실제 기능처럼 꾸미지 않는다.
-- 처리 중에는 커서와 카메라도 잠깐 머물게 한다. 완료가 확인된 뒤 확대를 풀고 최종 결과를 읽을 시간을 남긴다.
+- Don't place the submit, save, or send click and the completion screen at the same instant. Use processing states the product has, such as a disabled button or "Saving…".
+- For a short intro video, start by considering about 0.7–1.2 seconds of processing time. This is a directing starting point, not a claim about real performance. Don't present feedback UI the product lacks as if it were a real feature.
+- Let the cursor and camera rest briefly during processing. After completion is confirmed, zoom out and leave time to read the final result.
 
-## 6. 렌더링과 검증
+## 6. Rendering and verification
 
-사용 가능한 도구를 먼저 확인한다. `browser-video-recording` 스킬이 설치돼 있으면 캡처·렌더링 절차에 활용하되 사용자가 정한 비율과 길이를 우선한다. 없으면 현재 사용 가능한 브라우저 캡처와 결정적인 프레임 렌더링 방식으로 수행한다. 스킬이나 실행 도구를 설치해야 하면 사용자의 설치 요청 범위를 확인한다.
+Check available tools first. If the `browser-video-recording` skill is installed, use it for capture and rendering steps, but give priority to the ratio and length the user set. If not, use the browser capture and deterministic frame rendering currently available. If a skill or tool needs installing, confirm whether that falls within what the user asked to install.
 
-촬영 원본, 영상용 목업·이미지, 타임라인 설정, 렌더 코드, 완성 MP4를 구분해 보관한다. 설치된 공용 렌더러를 특정 영상 수정 때문에 바꾸기보다는 영상별 설정이나 래퍼에서 조정한다. 수정본은 이전 MP4를 보존하고 새 이름으로 출력한다.
+Store source captures, video mockups and images, timeline settings, render code, and finished MP4s separately. Rather than changing an installed shared renderer for one video's fix, adjust per-video settings or a wrapper. Keep the previous MP4 when revising, and output the new one under a new name.
 
-완료 전에 다음을 실제로 확인한다.
+Before finishing, actually check the following.
 
-- **사건 순서:** 입력 완료 < 다음 이동 < 버튼 도착 < 클릭 < 결과 표시. 등록 처리 상태는 실행 클릭 뒤, 완료 화면 앞에 있다.
-- **안착 위치:** 플레이스홀더 맨 앞에서 클릭하고 같은 자리에서 첫 글자가 시작한다.
-- **연속성:** 목업 데이터, 입력 내용, 첨부 자산, 선택 옵션이 메뉴·편집·완료 화면에서 일치한다.
-- **대표 프레임:** 포커스 직후, 첫 입력, 입력 완료, 사진 버튼 클릭, 처리 중, 완료 직후를 추출해 눈으로 검사한다. 수정한 구간 앞뒤의 커서와 카메라도 확인한다.
-- **카메라:** 확대 시작·중간·정지·축소와 실제 클릭 시점을 확인한다. 중첩 줌, 경계에서 꺾이는 이동, 픽셀 단위 떨림, 대상·라벨 잘림, 지나친 중앙 정렬, 배경 연장 흔적을 점검한다. 대표 프레임으로 구도를 확인하고 전환 구간 재생으로 속도와 부드러움을 판단한다. 프레임 수가 맞거나 중복 프레임이 없다는 사실만으로 부드럽다고 결론 내리지 않는다.
-- **영상 파일:** ffprobe 등으로 길이·해상도·프레임 수·프레임률을 확인하고 전체 영상을 디코딩해 손상을 검사한다. 15초·60fps라면 900프레임이다.
+- **Event order:** input complete < move to next < button arrival < click < result shown. The submit processing state falls after the run click and before the completion screen.
+- **Landing position:** the click lands at the very start of the placeholder, and the first character starts in the same spot.
+- **Continuity:** mockup data, typed content, attached assets, and selected options match across menu, editing, and completion screens.
+- **Representative frames:** extract and visually inspect frames right after focus, at first input, at input complete, at the photo button click, during processing, and right after completion. Also check the cursor and camera before and after any revised section.
+- **Camera:** check zoom start, middle, hold, and zoom out against the actual click moments. Inspect for nested zooms, moves that kink at boundaries, pixel-level jitter, cut-off targets or labels, excessive centering, and traces of background extension. Confirm framing with representative frames, and judge speed and smoothness by playing the transitions. Don't conclude it's smooth just because frame counts match or there are no duplicate frames.
+- **Video file:** use ffprobe or similar to check length, resolution, frame count, and frame rate, and decode the whole video to check for corruption. At 15 seconds and 60fps, that is 900 frames.
 
-설정값만 보고 성공이라고 하지 않는다. 사용자가 지적한 시간의 실제 출력 프레임과 행동 순서를 확인한 뒤 전달한다.
+Don't call it a success based on settings alone. Check the actual output frames and action order at the times the user pointed out, then deliver.
 
-## 7. 피드백 반영과 전달
+## 7. Applying feedback and delivery
 
-‘몇 초가 어색하다’는 피드백을 받으면 해당 구간의 원인부터 확인한다. 관련 이벤트와 종속 키프레임을 함께 바꾸고, 이전에 승인된 움직임을 유지한다. 새 수정 때문에 다음 단계가 앞당겨지거나 겹치지 않는지 재검증한다.
+When feedback says a certain second feels awkward, first find the cause in that section. Change the related event and its dependent keyframes together, and keep motion that was previously approved. Re-verify that the new fix doesn't pull the next step earlier or make steps overlap.
 
-완성 MP4를 바로 재생할 수 있게 보여주고, 변경한 동작과 유지한 길이·비율만 짧게 설명한다. 실제 화면 캡처에 로컬 목업·합성을 사용했다면 이를 숨기지 않는다. 서버 데이터나 제품 기능을 바꾸지 않았다면 영상 산출물과 구분한다.
+Show the finished MP4 so it can be played right away, and briefly explain only the behavior changed and the length and ratio kept. If local mockups or compositing were used on real screen captures, don't hide that. If server data or product features weren't changed, keep that distinct from the video deliverable.
 
-## 짧은 데모의 구성 예시
+## Example structure for a short demo
 
-입력과 첨부를 포함한 기능을 15초로 소개할 때의 예시다. 특정 제품의 버튼 이름이나 좌표를 가정하지 않는다. 첨부나 옵션 선택이 없는 흐름은 해당 단계를 빼고 결과 확인 시간을 늘린다. 실제 타임라인은 각 행동의 읽기 시간과 선후 관계를 기준으로 정한다.
+An example of introducing a feature with input and attachment in 15 seconds. It assumes no specific product's button names or coordinates. For flows with no attachment or option selection, drop those steps and extend the time for checking the result. Set the real timeline by each action's reading time and sequence.
 
-| 구간 | 보여줄 행동 |
+| Section | Action to show |
 | --- | --- |
-| 0~3초 | 제품 화면에서 기능 진입 |
-| 3~4초 | 입력 시작점에 감속해 안착하고 클릭 |
-| 4~6초 | 핵심 내용 입력 |
-| 6~8초 | 입력 완료 후 확인 → 첨부 버튼 이동·클릭 → 첨부 표시 |
-| 8~11초 | 필요한 옵션 선택 및 결과 확인 |
-| 11~13초 | 실행 클릭 → 처리 중 표시 유지 |
-| 13~15초 | 완료 화면과 최종 결과 확인 |
+| 0–3s | Enter the feature from the product screen |
+| 3–4s | Decelerate, settle at the input start, and click |
+| 4–6s | Type the key content |
+| 6–8s | Check after input completes → move to and click the attach button → attachment appears |
+| 8–11s | Select needed options and check the result |
+| 11–13s | Run click → hold the processing state |
+| 13–15s | Check the completion screen and final result |

@@ -64,7 +64,7 @@ A collection of agent skills for discovering and exploring open source packages 
 
 ## Creative
 
-- **create-product-demo** — 실제 프로덕트 UI로 짧은 기능 소개·사용법 영상을 제작합니다. 단계별 시안 협의, 촬영용 목업, 자연스러운 커서·타이핑·처리 대기와 MP4 검증을 포함합니다.
+- **create-product-demo** — Creates short feature-intro and how-to videos using the real product UI, covering step-by-step draft agreement, filming mockups, natural cursor, typing, and processing waits, and MP4 verification.
 
   ```
   npx skills@latest add kidow/skills/create-product-demo
