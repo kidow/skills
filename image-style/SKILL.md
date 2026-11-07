@@ -27,6 +27,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [detailed-crayon-rendering](styles/detailed-crayon-rendering/STYLE.md) | Faithful, detailed subject in dense waxy crayon strokes | Turning photos into warm crayon drawings that keep their detail |
 | [keith-haring](styles/keith-haring/STYLE.md) | Dense all-over pop pattern with thick black outlines and flat primary colors | Turning photos into lively Keith Haring-style graphics |
 | [piet-mondrian](styles/piet-mondrian/STYLE.md) | Asymmetrical grid of black lines and primary-color rectangles in layered paper | Turning photos into Mondrian-style geometric abstractions |
+| [joseon-genre-painting](styles/joseon-genre-painting/STYLE.md) | Late Joseon Korean genre painting with lively ink lines and pale washes on aged paper | Turning photos of people into warm traditional Korean paintings |
 
 ## Convert an image
 
