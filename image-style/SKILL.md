@@ -28,6 +28,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [keith-haring](styles/keith-haring/STYLE.md) | Dense all-over pop pattern with thick black outlines and flat primary colors | Turning photos into lively Keith Haring-style graphics |
 | [piet-mondrian](styles/piet-mondrian/STYLE.md) | Asymmetrical grid of black lines and primary-color rectangles in layered paper | Turning photos into Mondrian-style geometric abstractions |
 | [joseon-genre-painting](styles/joseon-genre-painting/STYLE.md) | Late Joseon Korean genre painting with lively ink lines and pale washes on aged paper | Turning photos of people into warm traditional Korean paintings |
+| [minimal-face-grid](styles/minimal-face-grid/STYLE.md) | Naive black-and-white line portraits in hand-drawn square frames | Turning photos of people into quirky portrait grids |
 
 ## Convert an image
 
