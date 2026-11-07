@@ -1,0 +1,57 @@
+---
+name: image-style
+description: Converts an existing image into a specific saved style, using a growing library of reusable style prompts with example results. Use when the user wants to restyle or transform a photo or image into a saved style, asks which styles are available, or provides a new style-conversion prompt or reference to save. Not for creating new images from text alone.
+---
+
+# Image Style
+
+A library of concrete styles for converting existing images. Each style keeps a reusable conversion prompt, traits observed in the user's references, and one example conversion.
+
+## Styles
+
+| Style | Look | Best for |
+| --- | --- | --- |
+| [crayon-kid-drawing](styles/crayon-kid-drawing/STYLE.md) | Clumsy kindergarten crayon drawing with rough primary colors | Turning photos into playful, naive drawings |
+| [geometric-symbol-print](styles/geometric-symbol-print/STYLE.md) | Abstract geometric symbol in flat, grainy inks on warm paper with fine construction lines | Turning photos into minimal design prints |
+| [palette-knife-impasto](styles/palette-knife-impasto/STYLE.md) | Thick palette-knife oil paint in relief on warm cream paper | Turning photos of a single subject into miniature paintings |
+| [cosmic-pixel-poster](styles/cosmic-pixel-poster/STYLE.md) | Retro dot-matrix pixel flyer with a golden title on a dark cosmic background | Turning images into titled event-style posters |
+| [photo-fragment-collage](styles/photo-fragment-collage/STYLE.md) | One photo split into six crops in an aligned grid on pale paper | Turning a photo into a calm magazine-style collage poster |
+| [colored-pencil-sketch](styles/colored-pencil-sketch/STYLE.md) | Loose layered colored pencil strokes that scatter into white paper | Turning photos into relaxed travel-sketchbook drawings |
+
+## Convert an image
+
+1. Get the source image as a readable local path. If the user gave none, ask for it.
+2. Match the request to a style in the table. If several fit or none clearly fits, show the options and let the user choose. Don't invent a style and present it as saved.
+3. Read that style's `STYLE.md`, and look at its example.
+4. Build the prompt from the style's prompt block. Add the user's specifics without dropping style rules, and add observed traits that matter for this image.
+5. Convert with the image tool the user asked for or has available, using the source image as the edit target. With `gpt-image`, use `--mode edit --edit-target <source>`.
+6. Compare the result with the source, the observed traits, and the example. If it drifts, name the difference and tighten the prompt for that trait.
+
+When the user's request conflicts with a saved style, follow the user for this image and leave the saved style unchanged.
+
+## Add a style
+
+1. Pick a short, descriptive kebab-case name based on the look. Don't name it after a subject that only appears in the references.
+2. Create `styles/<name>/STYLE.md` from the structure below. Don't save the user's reference images in this skill.
+3. Write the prompt in English, keeping every rule the user gave. Don't add rules to the prompt block on your own. If a reference shows a before/after pair, ask which part the user wants as output.
+4. Look at the references, and record traits the prompt doesn't state under "Observed in references".
+5. Generate a neutral source photo with no real names or logos, and convert it with the prompt using `gpt-image`. Save only the converted image in `styles/<name>/examples/` as WebP at quality 80 (for example, `cwebp -q 80 -m 6 in.png -o out.webp`), and note any gap from the references.
+6. Add a row to the table above.
+
+```md
+# <Style name>
+
+<One sentence on the look.>
+
+## Prompt
+
+<The reusable conversion prompt, in a code block.>
+
+## Observed in references
+
+<Visible traits the prompt doesn't state.>
+
+## Examples
+
+<The converted image, its source, and any gap from the references.>
+```

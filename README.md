@@ -70,6 +70,12 @@ A collection of agent skills for discovering and exploring open source packages 
   npx skills@latest add kidow/skills/create-product-demo
   ```
 
+- **image-style** — Converts an existing image into a specific saved style, using a growing library of reusable style prompts with example results.
+
+  ```
+  npx skills@latest add kidow/skills/image-style
+  ```
+
 - **songwriting** — Builds ACE-Step 1.5 music generation prompts through an interview-driven songwriting workflow, producing Custom Mode-ready Title, Style, Lyrics, and Params blocks.
 
   ```
