@@ -23,6 +23,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [vintage-brush-illustration](styles/vintage-brush-illustration/STYLE.md) | Flat hand-brushed illustration in 3-4 muted colors on cream paper | Turning photos into simple vintage-toned illustrations |
 | [pixel-sticker](styles/pixel-sticker/STYLE.md) | Cute, soft pixel art sticker of the main subject on pure white | Turning a photo's subject into a collectible sticker or profile image |
 | [midcentury-cut-paper](styles/midcentury-cut-paper/STYLE.md) | Bold geometric cut-paper shapes in flat midcentury colors on a solid background | Turning food photos into modernist wall-art illustrations |
+| [bold-organic-shapes](styles/bold-organic-shapes/STYLE.md) | Oversized hand-cut organic masses in 2-4 bold colors with asymmetrical cropping and a matte print finish | Turning food photos into abstract gallery-style graphics |
 
 ## Convert an image
 
