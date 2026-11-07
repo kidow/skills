@@ -22,6 +22,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [miniature-on-palm](styles/miniature-on-palm/STYLE.md) | Tiny realistic miniature of the subject on an open palm, in front of the original background | Turning a photo's subject into a playful miniature |
 | [vintage-brush-illustration](styles/vintage-brush-illustration/STYLE.md) | Flat hand-brushed illustration in 3-4 muted colors on cream paper | Turning photos into simple vintage-toned illustrations |
 | [pixel-sticker](styles/pixel-sticker/STYLE.md) | Cute, soft pixel art sticker of the main subject on pure white | Turning a photo's subject into a collectible sticker or profile image |
+| [midcentury-cut-paper](styles/midcentury-cut-paper/STYLE.md) | Bold geometric cut-paper shapes in flat midcentury colors on a solid background | Turning food photos into modernist wall-art illustrations |
 
 ## Convert an image
 
