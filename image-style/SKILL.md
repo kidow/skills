@@ -20,6 +20,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [gouache-marker-illustration](styles/gouache-marker-illustration/STYLE.md) | Cute flat gouache and marker illustration with thick wobbly outlines on cream | Turning photos into simple, friendly illustrations |
 | [retro-game-pixel-art](styles/retro-game-pixel-art/STYLE.md) | 16-bit game sprite or background with blocky pixels, dithering, and a limited palette | Turning photos into nostalgic game-like pixel art |
 | [miniature-on-palm](styles/miniature-on-palm/STYLE.md) | Tiny realistic miniature of the subject on an open palm, in front of the original background | Turning a photo's subject into a playful miniature |
+| [vintage-brush-illustration](styles/vintage-brush-illustration/STYLE.md) | Flat hand-brushed illustration in 3-4 muted colors on cream paper | Turning photos into simple vintage-toned illustrations |
 
 ## Convert an image
 
