@@ -1,6 +1,6 @@
 # Cosmic Pixel Poster
 
-An image reinterpreted as a vertical retro event flyer in low-resolution LED dot-matrix pixels, with a large golden title on a dark cosmic background.
+An image reinterpreted as a retro event flyer in low-resolution LED dot-matrix pixels, with a large golden title on a dark cosmic background.
 
 ## Prompt
 
@@ -19,7 +19,7 @@ Place the main title text at the top:
 The title should be large, bold, blocky, and pixelated, using a retro dot-matrix / bitmap font style. The title should feel like it was drawn with small square pixels or LED dots, slightly imperfect and nostalgic.
 
 [Overall Style]
-A vertical retro event poster with a black or very dark charcoal background, filled with colorful tiny pixel stars, confetti dots, geometric shapes, small squares, rings, crosses, diamonds, moons, flowers, planets, UFO-like symbols, cactus-like silhouettes, and playful space-age icons.
+A retro event poster with a black or very dark charcoal background, filled with colorful tiny pixel stars, confetti dots, geometric shapes, small squares, rings, crosses, diamonds, moons, flowers, planets, UFO-like symbols, cactus-like silhouettes, and playful space-age icons.
 
 The poster should feel like a mix of:
 - 1980s / 1990s underground electronic music flyer
@@ -29,7 +29,7 @@ The poster should feel like a mix of:
 - printed zine poster with slightly rough ink texture
 
 [Composition]
-Vertical poster layout.
+Poster layout.
 Large title area at the top, occupying about 25–35% of the poster height.
 Below the title, arrange several small pixel-art icon sections inspired by the uploaded image.
 Use the uploaded image's main subject as the central inspiration, but simplify it into pixel symbols and decorative motifs.
@@ -82,7 +82,7 @@ Add subtle paper grain, screen-printed ink texture, slight blur from old print r
 The poster should feel like a physical printed flyer photographed in a book or zine archive.
 
 [Technical Specs]
-Vertical poster.
+Same aspect ratio as the attached image.
 High detail pixel-art texture.
 Low-resolution aesthetic, but high-quality final image.
 Sharp enough to read the title, but with intentionally rough pixel edges.
@@ -120,10 +120,9 @@ The user's original reference images aren't stored. They showed these traits, wh
 - **Subject:** the main subject stays large, central, and recognizable as one pixel illustration, even though the prompt asks for symbolic icons. Its pose and key details carry over from the source.
 - **Scene:** the source setting turns cosmic, such as a daytime window becoming a starry night city, and objects gain stars or glitter.
 - **Title:** a short two-line title in all caps pairs a cosmic word with the subject.
-- **Ratio:** posters are 3:4.
 - **Layout:** repeated motifs from the source fill the margins, sometimes with thin dotted frames and small inset panels.
 - **Source text:** logos and text in the source are dropped.
 
 ## Examples
 
-- [bicycle.webp](examples/bicycle.webp): conversion of a generated photo of a red bicycle against a wall, with the title "COSMIC BIKE", made with `gpt-image` from the prompt above. It matches the references' golden title, large central subject, and cosmic motifs. It came out 2:3 instead of 3:4, so request the ratio explicitly. Its worn poster edges and creases are heavier than the references, and its pixels look more like cross-stitch.
+- [bicycle.webp](examples/bicycle.webp): conversion of a generated photo of a red bicycle against a wall, with the title "COSMIC BIKE", made with `gpt-image` from the prompt above. It matches the references' golden title, large central subject, and cosmic motifs. It keeps the source's 3:2 ratio, and its title fits on one line. Its worn poster edges and creases are heavier than the references, and its pixels look more like cross-stitch.

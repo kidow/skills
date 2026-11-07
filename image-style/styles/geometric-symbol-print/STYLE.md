@@ -5,7 +5,7 @@ A subject distilled into one abstract geometric symbol, printed in a few flat in
 ## Prompt
 
 ```text
-Turn each uploaded photo into its own standalone 3:2 landscape design print, without mixing different photos. The output is only the abstract print. Don't include the original photo or a split layout. If the input is a screenshot of a finished piece, extract only the work and remove interface elements, watermarks, and page text.
+Turn each uploaded photo into its own standalone design print with the same aspect ratio as the photo, without mixing different photos. The output is only the abstract print. Don't include the original photo or a split layout. If the input is a screenshot of a finished piece, extract only the work and remove interface elements, watermarks, and page text.
 
 Distill a self-contained abstract visual symbol from the photo. First identify the two or three most recognizable traits: silhouette, structure, movement, repeating rhythm, or narrative relationship. Then compress them using a few geometric modules, lines, cuts, overlaps, and negative space. Capture the subject's character and relationships without reproducing the whole object. Don't draw a complete landscape or illustration, and don't force different subjects into the same kind of shape.
 

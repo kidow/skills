@@ -5,7 +5,7 @@ A subject converted into a thick palette-knife oil painting that stands out in r
 ## Prompt
 
 ```text
-Convert the subject in the attached photo into a square miniature painting in palette knife impasto oil style.
+Convert the subject in the attached photo into a miniature painting in palette knife impasto oil style.
 
 [Style - emphasize dimensionality]
 - Impasto technique with paint boldly built up with a palette knife, thick enough to look like it actually protrudes 3-5 mm from the surface
@@ -23,7 +23,7 @@ Convert the subject in the attached photo into a square miniature painting in pa
 - No text, handwriting, captions, or signatures anywhere in the image
 
 [Ratio/composition]
-- Output ratio fixed at 1:1
+- Output ratio same as the attached image
 - Place the subject at the center of the frame with generous margins, simply the single subject with no props
 ```
 
@@ -40,4 +40,4 @@ The user's original reference images aren't stored. They showed these traits, wh
 
 ## Examples
 
-- [teapot.webp](examples/teapot.webp): conversion of a generated photo of a blue enamel teapot on a kitchen table, made with `gpt-image` from the prompt above plus the surface, silhouette, ground, and scale traits and a request to keep source colors true. Without those additions, an earlier attempt had smoother strokes, brighter blue, and peach paper. This result matches the references better, but the teapot still spans about 85–90% of the width despite a 60–70% request, and its cream halo is more even and sticker-like than the references.
+- [teapot.webp](examples/teapot.webp): conversion of a generated photo of a blue enamel teapot on a kitchen table, made with `gpt-image` from the prompt above plus the surface, silhouette, ground, and scale traits and a request to keep source colors true. Without those additions, an earlier attempt had smoother strokes, brighter blue, and peach paper. This result matches the references better and keeps the source's 3:2 ratio. The teapot still spans about 75% of the width despite a 60–70% request, its height nearly fills the frame, and its cream halo reads more like a cut line than the references.

@@ -47,7 +47,6 @@ The user's original reference images aren't stored. They showed these traits, wh
 - **Background:** diagonal zigzag scribbles in one or two colors, often blue sky and green, form a rough vignette around the subject.
 - **Dark subjects:** black fur or dark areas build from dense layered lines with small highlights left bare.
 - **Scenes:** a detailed scene can fill most of the page, with its strokes thinning out only near the paper's edges.
-- **Ratio:** all references are 3:4.
 
 ## Examples
 

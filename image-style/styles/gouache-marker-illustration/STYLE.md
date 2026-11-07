@@ -37,7 +37,6 @@ The user's original reference images aren't stored. They showed these traits, wh
 - **Texture:** color areas look like dry-brush gouache or crayon with visible paper grain, not smooth fills.
 - **Detail:** complex subjects, such as a tower or a food platter, keep many small details, while plush toys and animals stay simple.
 - **Props:** props are small, self-contained sticker-like drawings, sometimes with a soft cream shadow.
-- **Ratio:** all references are 3:4.
 
 ## Examples
 

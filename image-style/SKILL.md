@@ -18,6 +18,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [photo-fragment-collage](styles/photo-fragment-collage/STYLE.md) | One photo split into six crops in an aligned grid on pale paper | Turning a photo into a calm magazine-style collage poster |
 | [colored-pencil-sketch](styles/colored-pencil-sketch/STYLE.md) | Loose layered colored pencil strokes that scatter into white paper | Turning photos into relaxed travel-sketchbook drawings |
 | [gouache-marker-illustration](styles/gouache-marker-illustration/STYLE.md) | Cute flat gouache and marker illustration with thick wobbly outlines on cream | Turning photos into simple, friendly illustrations |
+| [retro-game-pixel-art](styles/retro-game-pixel-art/STYLE.md) | 16-bit game sprite or background with blocky pixels, dithering, and a limited palette | Turning photos into nostalgic game-like pixel art |
 
 ## Convert an image
 
@@ -28,13 +29,15 @@ A library of concrete styles for converting existing images. Each style keeps a 
 5. Convert with the image tool the user asked for or has available, using the source image as the edit target. With `gpt-image`, use `--mode edit --edit-target <source>`.
 6. Compare the result with the source, the observed traits, and the example. If it drifts, name the difference and tighten the prompt for that trait.
 
+Keep the source image's aspect ratio in the output. Only styles built on their own fixed layout, such as `photo-fragment-collage`, are exempt.
+
 When the user's request conflicts with a saved style, follow the user for this image and leave the saved style unchanged.
 
 ## Add a style
 
 1. Pick a short, descriptive kebab-case name based on the look. Don't name it after a subject that only appears in the references.
 2. Create `styles/<name>/STYLE.md` from the structure below. Don't save the user's reference images in this skill.
-3. Write the prompt in English, keeping every rule the user gave. Don't add rules to the prompt block on your own. If a reference shows a before/after pair, ask which part the user wants as output.
+3. Write the prompt in English, keeping every rule the user gave. Don't add rules to the prompt block on your own, except that the prompt must keep the source's aspect ratio unless the style is a fixed layout. If a reference shows a before/after pair, ask which part the user wants as output.
 4. Look at the references, and record traits the prompt doesn't state under "Observed in references".
 5. Generate a neutral source photo with no real names or logos, and convert it with the prompt using `gpt-image`. Save only the converted image in `styles/<name>/examples/` as WebP at quality 80 (for example, `cwebp -q 80 -m 6 in.png -o out.webp`), and note any gap from the references.
 6. Add a row to the table above.

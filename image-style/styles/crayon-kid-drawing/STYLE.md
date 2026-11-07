@@ -36,6 +36,9 @@ Convert the attached photo into a very clumsy drawing that looks like a kinderga
 
 [Overall feel]
 It should feel like a real young child drew it in a hurry. Low polish is fine. The cruder and sloppier, the better.
+
+[Ratio]
+Same as the attached image.
 ```
 
 ## Observed in references
