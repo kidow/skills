@@ -26,6 +26,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [bold-organic-shapes](styles/bold-organic-shapes/STYLE.md) | Oversized hand-cut organic masses in 2-4 bold colors with asymmetrical cropping and a matte print finish | Turning food photos into abstract gallery-style graphics |
 | [detailed-crayon-rendering](styles/detailed-crayon-rendering/STYLE.md) | Faithful, detailed subject in dense waxy crayon strokes | Turning photos into warm crayon drawings that keep their detail |
 | [keith-haring](styles/keith-haring/STYLE.md) | Dense all-over pop pattern with thick black outlines and flat primary colors | Turning photos into lively Keith Haring-style graphics |
+| [piet-mondrian](styles/piet-mondrian/STYLE.md) | Asymmetrical grid of black lines and primary-color rectangles in layered paper | Turning photos into Mondrian-style geometric abstractions |
 
 ## Convert an image
 
