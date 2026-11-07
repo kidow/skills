@@ -14,7 +14,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [crayon-kid-drawing](styles/crayon-kid-drawing/STYLE.md) | Clumsy kindergarten crayon drawing with rough primary colors | Turning photos into playful, naive drawings |
 | [geometric-symbol-print](styles/geometric-symbol-print/STYLE.md) | Abstract geometric symbol in flat, grainy inks on warm paper with fine construction lines | Turning photos into minimal design prints |
 | [palette-knife-impasto](styles/palette-knife-impasto/STYLE.md) | Thick palette-knife oil paint in relief on warm cream paper | Turning photos of a single subject into miniature paintings |
-| [cosmic-pixel-poster](styles/cosmic-pixel-poster/STYLE.md) | Retro dot-matrix pixel flyer with a golden title on a dark cosmic background | Turning images into titled event-style posters |
+| [cosmic-pixel-poster](styles/cosmic-pixel-poster/STYLE.md) | Retro dot-matrix pixel flyer on a dark cosmic background | Turning images into cosmic event-style posters |
 | [photo-fragment-collage](styles/photo-fragment-collage/STYLE.md) | One photo split into six crops in an aligned grid on pale paper | Turning a photo into a calm magazine-style collage poster |
 | [colored-pencil-sketch](styles/colored-pencil-sketch/STYLE.md) | Loose layered colored pencil strokes that scatter into white paper | Turning photos into relaxed travel-sketchbook drawings |
 | [gouache-marker-illustration](styles/gouache-marker-illustration/STYLE.md) | Cute flat gouache and marker illustration with thick wobbly outlines on cream | Turning photos into simple, friendly illustrations |
