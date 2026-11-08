@@ -42,6 +42,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [bauhaus-modular](styles/bauhaus-modular/STYLE.md) | Modular grid of Bauhaus geometric tiles in primary colors and black on cream | Turning photos into geometric Bauhaus patterns |
 | [low-poly](styles/low-poly/STYLE.md) | Seamless mesh of flat-colored triangles with faceted shading | Turning photos into crisp faceted digital illustrations |
 | [ukiyo-e](styles/ukiyo-e/STYLE.md) | Edo-period Japanese woodblock print with keyblock outlines, flat muted colors, and printed patterns | Turning photos into traditional Japanese prints |
+| [crayon-lithograph](styles/crayon-lithograph/STYLE.md) | Stone lithograph with grainy black crayon tones and one or two flat color layers | Turning photos into vintage hand-pulled prints |
 
 ## Convert an image
 
