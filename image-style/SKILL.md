@@ -43,6 +43,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [low-poly](styles/low-poly/STYLE.md) | Seamless mesh of flat-colored triangles with faceted shading | Turning photos into crisp faceted digital illustrations |
 | [ukiyo-e](styles/ukiyo-e/STYLE.md) | Edo-period Japanese woodblock print with keyblock outlines, flat muted colors, and printed patterns | Turning photos into traditional Japanese prints |
 | [crayon-lithograph](styles/crayon-lithograph/STYLE.md) | Stone lithograph with grainy black crayon tones and one or two flat color layers | Turning photos into vintage hand-pulled prints |
+| [stained-glass](styles/stained-glass/STYLE.md) | Backlit leaded window of jewel-toned glass pieces joined by dark lead lines | Turning photos into glowing stained glass windows |
 
 ## Convert an image
 
