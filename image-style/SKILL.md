@@ -50,6 +50,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [gustav-klimt](styles/gustav-klimt/STYLE.md) | Golden Phase painting with natural faces and hands set in flat gold leaf and dense mosaic-like ornament | Turning photos of people into opulent Klimt-style paintings |
 | [georges-seurat](styles/georges-seurat/STYLE.md) | Pointillist painting built from small dots of pure color, with calm, sculptural figures and still light | Turning outdoor photos into Seurat-style pointillist paintings |
 | [edvard-munch](styles/edvard-munch/STYLE.md) | Expressionist painting with long wave-like lines, mask-like figures, and intense unnatural colors in thin, rough paint | Turning photos into tense, emotional Munch-style scenes |
+| [egon-schiele](styles/egon-schiele/STYLE.md) | Expressionist gouache drawing with angular contour lines, gaunt figures, bony hands, and white halos on buff paper | Turning photos of people into intense Schiele-style figure drawings |
 
 ## Convert an image
 
