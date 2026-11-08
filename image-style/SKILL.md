@@ -57,6 +57,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [paul-cezanne](styles/paul-cezanne/STYLE.md) | Post-Impressionist painting of parallel brushstroke patches, solid geometric forms, and warm-to-cool color modeling | Turning photos into structured Cézanne-style paintings |
 | [rembrandt](styles/rembrandt/STYLE.md) | Dutch Golden Age oil painting with dramatic chiaroscuro, golden light from deep brown darkness, and impasto highlights | Turning photos of people into dramatic old-master paintings |
 | [mosaic-art](styles/mosaic-art/STYLE.md) | Handmade mosaic of small glass and stone tiles in grout, with tile rows flowing along the shapes | Turning photos into tiled mosaic artworks |
+| [halftone-art](styles/halftone-art/STYLE.md) | Bold retro halftone print of coarse dots on a regular grid in two or three flat inks on paper | Turning photos into pop-art screen prints |
 
 ## Convert an image
 
