@@ -11,11 +11,15 @@ Glass pieces: build the whole image from individual pieces of colored glass, eac
 
 Color: rich, translucent jewel tones based on the photo's colors, glowing as light passes through. Each piece has a mostly single color with slight variation inside it, such as streaks, gentle mottling, or a soft glow toward its center, like real cathedral, opalescent, or seeded glass.
 
-Detail: keep the photo's subject, setting, composition, and main colors recognizable. Add fine details, such as facial features or small textures, with a few strokes of dark glass paint on top of the pieces, used sparingly.
+Subject: keep the photo's subject, setting, composition, and main colors recognizable. Build the subject itself from cut glass pieces joined by lead lines, exactly like the background, so it never looks like a painting placed on top of the glass. Simplify thin parts boldly so they can be made of glass: render each thin part as a strip of glass at least as wide as a lead line, and reduce many fine parts to a few wider glass strips or leave them out.
+
+Shadows and light: make shadows and light patches their own pieces of darker or lighter glass, bounded by lead lines, rather than shading painted across pieces.
+
+Detail: add only the finest details, such as facial features, with a few strokes of dark glass paint on top of the pieces, used sparingly.
 
 Surface: the look of real glass and lead in a window, with soft highlights, slight bubbles and texture in the glass, and glowing backlight. No photographic detail, flat vector color, or digital gradients across pieces.
 
-Show only the window filling the frame, with no surrounding wall, room, frame, or hanging chain.
+Show only the window filling the frame, with no surrounding wall, room, frame, border, edge line, or hanging chain.
 
 Don't include any text, letters, or watermarks.
 
@@ -34,4 +38,4 @@ These traits come from viewing Google image results for "stained glass art". The
 
 ## Examples
 
-- [bicycle.webp](examples/bicycle.webp): conversion of a generated photo of a red bicycle against a wall, made with `gpt-image` from the prompt above plus requests for a glass-built subject, bold simplification of thin parts, shadows as separate glass pieces, and no frame line. Without those additions, an earlier attempt painted the bicycle on top of the glass, with fine painted spokes and shadows painted across the pieces. This result has no text, keeps the 3:2 ratio and the source's composition, and builds the bicycle from red glass segments, gray tire segments, and a few wide spokes, all joined by lead lines. The leaf shadows became lavender glass shapes, though some still cross the wall's lead lines, and a thin edge line still runs around the frame.
+- [bicycle.webp](examples/bicycle.webp): conversion of a generated photo of a red bicycle against a wall, made with `gpt-image` using the glass-built subject, simplification, glass shadow, and no-border rules now in the prompt, given as additions at the time. Without those rules, an earlier attempt painted the bicycle on top of the glass, with fine painted spokes and shadows painted across the pieces. This result has no text, keeps the 3:2 ratio and the source's composition, and builds the bicycle from red glass segments, gray tire segments, and a few wide spokes, all joined by lead lines. The leaf shadows became lavender glass shapes, though some still cross the wall's lead lines, and a thin edge line still runs around the frame.
