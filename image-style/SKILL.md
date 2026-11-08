@@ -58,6 +58,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [rembrandt](styles/rembrandt/STYLE.md) | Dutch Golden Age oil painting with dramatic chiaroscuro, golden light from deep brown darkness, and impasto highlights | Turning photos of people into dramatic old-master paintings |
 | [mosaic-art](styles/mosaic-art/STYLE.md) | Handmade mosaic of small glass and stone tiles in grout, with tile rows flowing along the shapes | Turning photos into tiled mosaic artworks |
 | [halftone-art](styles/halftone-art/STYLE.md) | Bold retro halftone print of coarse dots on a regular grid in two or three flat inks on paper | Turning photos into pop-art screen prints |
+| [glitch-art](styles/glitch-art/STYLE.md) | Corrupted digital image with RGB splits, shifted slices, pixel-sorted streaks, and compression blocks | Turning photos into edgy digital glitch art |
 
 ## Convert an image
 
