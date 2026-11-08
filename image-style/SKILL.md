@@ -35,6 +35,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [pablo-picasso](styles/pablo-picasso/STYLE.md) | 1930s Picasso portraits with combined profile and frontal faces, thick black curves, and flat bold color | Turning photos of people into Picasso-style portraits |
 | [origami-paper-model](styles/origami-paper-model/STYLE.md) | Photographed scene of real folded-paper models with crisp creases and soft studio light | Turning photos into handcrafted origami scenes |
 | [dancheong](styles/dancheong/STYLE.md) | Korean architectural Dancheong painting with five cardinal colors, banded color steps, and cloud and floral patterns | Turning photos into ornate traditional Korean decorations |
+| [woven-tapestry](styles/woven-tapestry/STYLE.md) | Antique European wall tapestry with visible wool threads, faded natural dyes, and dense foliage | Turning photos into old-world woven textiles |
 
 ## Convert an image
 
