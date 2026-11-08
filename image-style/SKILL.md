@@ -33,6 +33,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [claude-monet](styles/claude-monet/STYLE.md) | Impressionist oil painting in broken brushstrokes of vibrating color and natural light | Turning outdoor photos into Monet-style paintings |
 | [vincent-van-gogh](styles/vincent-van-gogh/STYLE.md) | Thick swirling impasto strokes with deep, earthy complementary colors and bold outlines | Turning photos into expressive Van Gogh-style paintings |
 | [pablo-picasso](styles/pablo-picasso/STYLE.md) | 1930s Picasso portraits with combined profile and frontal faces, thick black curves, and flat bold color | Turning photos of people into Picasso-style portraits |
+| [origami-paper-model](styles/origami-paper-model/STYLE.md) | Photographed scene of real folded-paper models with crisp creases and soft studio light | Turning photos into handcrafted origami scenes |
 
 ## Convert an image
 
