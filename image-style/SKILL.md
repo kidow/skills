@@ -55,6 +55,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [alphonse-mucha](styles/alphonse-mucha/STYLE.md) | Art Nouveau decorative panel with flowing outlined figures, a circular halo, flowers, and soft pastel lithograph color | Turning photos of people into elegant Mucha-style illustrations |
 | [amedeo-modigliani](styles/amedeo-modigliani/STYLE.md) | Portrait painting with elongated mask-like faces, long necks, almond eyes, and warm earthy colors on plain backgrounds | Turning photos of people into calm Modigliani-style portraits |
 | [paul-cezanne](styles/paul-cezanne/STYLE.md) | Post-Impressionist painting of parallel brushstroke patches, solid geometric forms, and warm-to-cool color modeling | Turning photos into structured Cézanne-style paintings |
+| [rembrandt](styles/rembrandt/STYLE.md) | Dutch Golden Age oil painting with dramatic chiaroscuro, golden light from deep brown darkness, and impasto highlights | Turning photos of people into dramatic old-master paintings |
 
 ## Convert an image
 
