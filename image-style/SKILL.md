@@ -47,6 +47,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [graphic-novel](styles/graphic-novel/STYLE.md) | Single modern graphic novel panel with bold ink, spot blacks, flat moody colors, and cinematic light | Turning photos of people into dramatic comic scenes |
 | [graphite-pencil-sketch](styles/graphite-pencil-sketch/STYLE.md) | Realistic graphite sketch with loose lines, layered hatching, and unfinished edges | Turning photos into hand-drawn pencil studies |
 | [ms-paint-scribble](styles/ms-paint-scribble/STYLE.md) | Deliberately bad MS Paint mouse drawing with jagged pixel lines and scribble fills on white | Turning photos into funny low-effort doodles |
+| [gustav-klimt](styles/gustav-klimt/STYLE.md) | Golden Phase painting with natural faces and hands set in flat gold leaf and dense mosaic-like ornament | Turning photos of people into opulent Klimt-style paintings |
 
 ## Convert an image
 
