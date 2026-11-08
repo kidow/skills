@@ -51,6 +51,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [georges-seurat](styles/georges-seurat/STYLE.md) | Pointillist painting built from small dots of pure color, with calm, sculptural figures and still light | Turning outdoor photos into Seurat-style pointillist paintings |
 | [edvard-munch](styles/edvard-munch/STYLE.md) | Expressionist painting with long wave-like lines, mask-like figures, and intense unnatural colors in thin, rough paint | Turning photos into tense, emotional Munch-style scenes |
 | [egon-schiele](styles/egon-schiele/STYLE.md) | Expressionist gouache drawing with angular contour lines, gaunt figures, bony hands, and white halos on buff paper | Turning photos of people into intense Schiele-style figure drawings |
+| [ascii-art](styles/ascii-art/STYLE.md) | Strict grid of monospaced keyboard characters on black, with density for tone and the photo's colors | Turning photos into terminal-style character art |
 
 ## Convert an image
 
