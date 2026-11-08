@@ -46,6 +46,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [stained-glass](styles/stained-glass/STYLE.md) | Backlit leaded window of jewel-toned glass pieces joined by dark lead lines | Turning photos into glowing stained glass windows |
 | [graphic-novel](styles/graphic-novel/STYLE.md) | Single modern graphic novel panel with bold ink, spot blacks, flat moody colors, and cinematic light | Turning photos of people into dramatic comic scenes |
 | [graphite-pencil-sketch](styles/graphite-pencil-sketch/STYLE.md) | Realistic graphite sketch with loose lines, layered hatching, and unfinished edges | Turning photos into hand-drawn pencil studies |
+| [ms-paint-scribble](styles/ms-paint-scribble/STYLE.md) | Deliberately bad MS Paint mouse drawing with jagged pixel lines and scribble fills on white | Turning photos into funny low-effort doodles |
 
 ## Convert an image
 
@@ -59,6 +60,10 @@ A library of concrete styles for converting existing images. Each style keeps a 
 Keep the source image's aspect ratio in the output. Only styles built on their own fixed layout, such as `photo-fragment-collage`, are exempt.
 
 When the user's request conflicts with a saved style, follow the user for this image and leave the saved style unchanged.
+
+## Copyright caution
+
+Some styles are named after artists, such as `pablo-picasso` and `keith-haring`, whose works may still be under copyright and whose names may be protected as trademarks. When a user converts an image with an artist-named style, mention once that commercial use of the result may need a rights check. Never copy a specific existing artwork, character, logo, or signature.
 
 ## Add a style
 
