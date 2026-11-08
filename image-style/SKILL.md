@@ -52,6 +52,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [edvard-munch](styles/edvard-munch/STYLE.md) | Expressionist painting with long wave-like lines, mask-like figures, and intense unnatural colors in thin, rough paint | Turning photos into tense, emotional Munch-style scenes |
 | [egon-schiele](styles/egon-schiele/STYLE.md) | Expressionist gouache drawing with angular contour lines, gaunt figures, bony hands, and white halos on buff paper | Turning photos of people into intense Schiele-style figure drawings |
 | [ascii-art](styles/ascii-art/STYLE.md) | Strict grid of monospaced keyboard characters on black, with density for tone and the photo's colors | Turning photos into terminal-style character art |
+| [alphonse-mucha](styles/alphonse-mucha/STYLE.md) | Art Nouveau decorative panel with flowing outlined figures, a circular halo, flowers, and soft pastel lithograph color | Turning photos of people into elegant Mucha-style illustrations |
 
 ## Convert an image
 
