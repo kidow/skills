@@ -41,6 +41,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [etching-engraving](styles/etching-engraving/STYLE.md) | Black-and-white intaglio etching built from fine hatching, crosshatching, and stipple | Turning photos into detailed vintage line prints |
 | [bauhaus-modular](styles/bauhaus-modular/STYLE.md) | Modular grid of Bauhaus geometric tiles in primary colors and black on cream | Turning photos into geometric Bauhaus patterns |
 | [low-poly](styles/low-poly/STYLE.md) | Seamless mesh of flat-colored triangles with faceted shading | Turning photos into crisp faceted digital illustrations |
+| [ukiyo-e](styles/ukiyo-e/STYLE.md) | Edo-period Japanese woodblock print with keyblock outlines, flat muted colors, and printed patterns | Turning photos into traditional Japanese prints |
 
 ## Convert an image
 
