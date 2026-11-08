@@ -38,6 +38,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [woven-tapestry](styles/woven-tapestry/STYLE.md) | Antique European wall tapestry with visible wool threads, faded natural dyes, and dense foliage | Turning photos into old-world woven textiles |
 | [retro-futurism](styles/retro-futurism/STYLE.md) | 1950s–60s space-age illustration with streamlined chrome designs and vintage print texture | Turning photos into optimistic visions of a retro future |
 | [brutalist-concrete-poster](styles/brutalist-concrete-poster/STYLE.md) | Gritty black-and-white concrete photo with bold flat primary color shapes | Turning photos, especially of buildings, into raw graphic art posters |
+| [etching-engraving](styles/etching-engraving/STYLE.md) | Black-and-white intaglio etching built from fine hatching, crosshatching, and stipple | Turning photos into detailed vintage line prints |
 
 ## Convert an image
 
