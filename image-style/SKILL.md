@@ -32,6 +32,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [cubist-illustration](styles/cubist-illustration/STYLE.md) | Flat overlapping planes from several viewpoints in bright colors with bold outlines | Turning photos into modern Cubist illustrations |
 | [claude-monet](styles/claude-monet/STYLE.md) | Impressionist oil painting in broken brushstrokes of vibrating color and natural light | Turning outdoor photos into Monet-style paintings |
 | [vincent-van-gogh](styles/vincent-van-gogh/STYLE.md) | Thick swirling impasto strokes with deep, earthy complementary colors and bold outlines | Turning photos into expressive Van Gogh-style paintings |
+| [pablo-picasso](styles/pablo-picasso/STYLE.md) | 1930s Picasso portraits with combined profile and frontal faces, thick black curves, and flat bold color | Turning photos of people into Picasso-style portraits |
 
 ## Convert an image
 
