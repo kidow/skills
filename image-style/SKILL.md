@@ -53,6 +53,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [egon-schiele](styles/egon-schiele/STYLE.md) | Expressionist gouache drawing with angular contour lines, gaunt figures, bony hands, and white halos on buff paper | Turning photos of people into intense Schiele-style figure drawings |
 | [ascii-art](styles/ascii-art/STYLE.md) | Strict grid of monospaced keyboard characters on black, with density for tone and the photo's colors | Turning photos into terminal-style character art |
 | [alphonse-mucha](styles/alphonse-mucha/STYLE.md) | Art Nouveau decorative panel with flowing outlined figures, a circular halo, flowers, and soft pastel lithograph color | Turning photos of people into elegant Mucha-style illustrations |
+| [amedeo-modigliani](styles/amedeo-modigliani/STYLE.md) | Portrait painting with elongated mask-like faces, long necks, almond eyes, and warm earthy colors on plain backgrounds | Turning photos of people into calm Modigliani-style portraits |
 
 ## Convert an image
 
