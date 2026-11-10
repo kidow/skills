@@ -60,6 +60,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [halftone-art](styles/halftone-art/STYLE.md) | Bold retro halftone print of coarse dots on a regular grid in two or three flat inks on paper | Turning photos into pop-art screen prints |
 | [glitch-art](styles/glitch-art/STYLE.md) | Corrupted digital image with RGB splits, shifted slices, pixel-sorted streaks, and compression blocks | Turning photos into edgy digital glitch art |
 | [sepia-vintage](styles/sepia-vintage/STYLE.md) | Antique sepia ink and wash drawing in monochrome browns on aged, stained cream paper | Turning photos into nostalgic antique drawings |
+| [junji-ito](styles/junji-ito/STYLE.md) | Black-and-white horror manga with fine pen hatching, wide staring eyes, flowing ink hair, and subtle spiral patterns | Turning photos of people into eerie Junji Ito-style manga panels |
 
 ## Convert an image
 
