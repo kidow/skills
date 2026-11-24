@@ -61,6 +61,7 @@ A library of concrete styles for converting existing images. Each style keeps a 
 | [glitch-art](styles/glitch-art/STYLE.md) | Corrupted digital image with RGB splits, shifted slices, pixel-sorted streaks, and compression blocks | Turning photos into edgy digital glitch art |
 | [sepia-vintage](styles/sepia-vintage/STYLE.md) | Antique sepia ink and wash drawing in monochrome browns on aged, stained cream paper | Turning photos into nostalgic antique drawings |
 | [junji-ito](styles/junji-ito/STYLE.md) | Black-and-white horror manga with fine pen hatching, wide staring eyes, flowing ink hair, and subtle spiral patterns | Turning photos of people into eerie Junji Ito-style manga panels |
+| [blue-pen-illustration](styles/blue-pen-illustration/STYLE.md) | Decorative pen-and-ink drawing with supple dark-blue contours, restrained flat colors, stylized plants, and white paper | Turning street and building photos into calm travel-poster-style illustrations |
 
 ## Convert an image
 
